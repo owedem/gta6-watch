@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29T16:45:58Z",
+  "generated": "2026-06-29T21:38:18Z",
   "pages": {
     "home": {
       "title": "Grand Theft Auto VI - Rockstar Games",
@@ -320,11 +320,11 @@
   "investor": {
     "take-two-press": {
       "status": 404,
-      "hash": "aa2b2e13568c53e3"
+      "hash": "8b4f0a4e354cc847"
     },
     "take-two-ir": {
       "status": 200,
-      "hash": "700c04fbf3ae320d"
+      "hash": "59c12e6247f97d5e"
     }
   },
   "downloads": {
@@ -402,13 +402,34 @@
     "subdomains": [],
     "wildcard_only": true,
     "errors": [
-      "crt.sh rockstargames.com: Expecting value: line 1 column 1 (char 0)",
-      "crt.sh take2games.com: Expecting value: line 1 column 1 (char 0)"
+      "crt.sh rockstargames.com: HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=20)",
+      "crt.sh take2games.com: HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=20)"
     ]
   },
   "manifest_routes": {
     "buildId": null,
     "routes": [],
     "note": "buildId not found"
+  },
+  "discovery": {
+    "urls": [
+      "https://media.rockstargames.com/VI/downloads/artwork_wallpapers/GTAVI_Artwork_Wallpapers.zip",
+      "https://media.rockstargames.com/VI/downloads/screenshots/GTAVI_Screenshots.zip",
+      "https://media.rockstargames.com/VI/downloads/screenshots/GTAVI_Ultimate_Edition_Benefits.zip",
+      "https://media.rockstargames.com/VI/downloads/screenshots/GTAVI_Vintage_Vice_City_Pack.zip",
+      "https://media.rockstargames.com/VI/downloads/videos/GTAVI_Videos.zip",
+      "https://www.rockstargames.com/VI",
+      "https://www.rockstargames.com/VI/media",
+      "https://www.rockstargames.com/VI/media/artwork-wallpapers",
+      "https://www.rockstargames.com/VI/media/screenshots",
+      "https://www.rockstargames.com/VI/media/videos",
+      "https://www.rockstargames.com/VI/only-in-leonida",
+      "https://www.rockstargames.com/ccpa",
+      "https://www.rockstargames.com/cookies",
+      "https://www.rockstargames.com/corpinfo",
+      "https://www.rockstargames.com/legal",
+      "https://www.rockstargames.com/privacy"
+    ],
+    "visited": 11
   }
 }
