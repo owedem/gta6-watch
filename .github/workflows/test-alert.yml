@@ -1,0 +1,10 @@
+name: test-alert
+on: workflow_dispatch
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          WEBHOOK: ${{ secrets.ALERT_WEBHOOK }}
+        run: |
+          curl -sS -H "Content-Type: application/json" -d '{"content":"✅ gta6-watch test alert — Discord is working."}' "$WEBHOOK"
