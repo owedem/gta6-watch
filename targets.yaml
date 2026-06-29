@@ -132,8 +132,11 @@ cert_transparency:
   domains:
     - rockstargames.com
     - take2games.com
-  # Subdomains containing any of these tokens are scored CRITICAL on first sight.
-  hot_tokens: [gta6, gtavi, "vi-", "vi.", preorder, pre-order, online, pc, store, signup, buy, beta, launch]
+  # GTA6-relevant tokens. A NEW subdomain containing any of these alerts
+  # (hot_subdomain, CRITICAL). Everything else (infra) is silently baselined.
+  hot_tokens: [gta6, gtavi, "grand-theft-auto", "vi-", "vi.", leonida, vice, jason, lucia,
+               preorder, "pre-order", online, "gta-online", store, checkout,
+               "system-requirements", steam, epic, signup, beta, launch]
 
 # ----- Discovery crawl (find NEW pages anywhere, without guessing) -----------
 # Crawls official hub pages, follows links one hop, and collects every URL on

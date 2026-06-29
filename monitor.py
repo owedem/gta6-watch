@@ -526,10 +526,11 @@ def diff(old: dict, new: dict, cfg: dict) -> list:
     new_subs = set((new.get("ct", {}) or {}).get("subdomains", []))
     if old.get("ct"):  # only after a baseline exists
         for s in sorted(new_subs - old_subs):
+            # ONLY GTA6-relevant subdomains alert. Backend/infra subdomains
+            # (prod.*.pod, ingest, telemetry, etc.) are silently baselined --
+            # not what we're watching for, and crt.sh churns its result set.
             if any(tok in s for tok in hot):
-                add("hot_subdomain", s, f"NEW subdomain (hot match): {s}")
-            else:
-                add("new_subdomain", s, f"new subdomain in CT logs: {s}")
+                add("hot_subdomain", s, f"NEW GTA6-relevant subdomain: {s}")
 
     # build manifest: a new declared route = a page built (maybe unlinked)
     old_mr = set((old.get("manifest_routes", {}) or {}).get("routes", []))
