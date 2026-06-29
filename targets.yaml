@@ -1,0 +1,188 @@
+# ============================================================
+# gta6-watch — monitoring targets & signal rules
+# Official sources only. Edit this file to tune what gets watched.
+# ============================================================
+
+http:
+  # NOTE: rockstargames.com/robots.txt blocks ClaudeBot, GPTBot, CCBot, etc.
+  # There is no "User-agent: *" rule, so a normal browser UA is allowed.
+  # Do NOT use an AI-crawler UA here or you'll be disallowed.
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+  accept_language: "en-GB,en;q=0.9"   # read the UK locale (£ prices, UK content)
+  timeout_seconds: 20
+  politeness_delay_seconds: 2
+  retries: 2
+
+# ----- Pages on the official GTA6 site --------------------------------------
+# extract options: title, meta, og, twitter, routes, media, bundles,
+#                  fingerprint, media_count, newswire
+pages:
+  - id: home
+    url: https://www.rockstargames.com/VI
+    extract: [title, meta, og, twitter, routes, media, bundles, fingerprint]
+  - id: only-in-leonida
+    url: https://www.rockstargames.com/VI/only-in-leonida
+    extract: [title, meta, og, twitter, routes, media, bundles, fingerprint]
+  - id: media
+    url: https://www.rockstargames.com/VI/media
+    extract: [title, meta, og, media, media_count, media_counts, fingerprint]
+  - id: editions
+    url: https://www.rockstargames.com/VI/editions
+    extract: [title, meta, og, routes, media, bundles, fingerprint]
+
+# ----- Rockstar Newswire (official announcements) ---------------------------
+newswire:
+  - id: newswire-gtavi
+    url: https://www.rockstargames.com/newswire/tags/2117289600  # GTA VI tag feed
+    extract: [newswire]
+
+# ----- Take-Two investor relations / SEC (often confirms dates & money) ------
+investor:
+  - id: take-two-press
+    url: https://www.take2games.com/press
+    extract: [routes, fingerprint]
+  - id: take-two-ir
+    url: https://ir.take2games.com/news-releases
+    extract: [routes, fingerprint]
+
+# ----- robots.txt + sitemaps -------------------------------------------------
+# NOTE (recon 2026-06-29): the root sitemap.xml is EMPTY for this target, so the
+# sitemap vector is weak here. robots.txt is still worth diffing (it reveals
+# newly added/blocked paths). The download bundles below replace the sitemap.
+robots_sitemap:
+  robots: https://www.rockstargames.com/robots.txt
+  sitemaps:
+    - https://www.rockstargames.com/sitemap.xml
+    - https://www.rockstargames.com/sitemap_index.xml
+    - https://www.rockstargames.com/VI/sitemap.xml
+
+# ----- Download bundles (media.rockstargames.com) — THE media tripwire --------
+# These zips are regenerated when Rockstar adds assets. We HEAD them (no big
+# download) and watch Content-Length / Last-Modified / ETag. A change == new
+# media, often staged before the gallery HTML updates. The "guessed" list
+# pre-watches plausible future bundles for a 404 -> 200 flip.
+downloads:
+  known:
+    - https://media.rockstargames.com/VI/downloads/videos/GTAVI_Videos.zip
+    - https://media.rockstargames.com/VI/downloads/screenshots/GTAVI_Screenshots.zip
+    - https://media.rockstargames.com/VI/downloads/screenshots/GTAVI_Ultimate_Edition_Benefits.zip
+    - https://media.rockstargames.com/VI/downloads/screenshots/GTAVI_Vintage_Vice_City_Pack.zip
+    - https://media.rockstargames.com/VI/downloads/artwork_wallpapers/GTAVI_Artwork_Wallpapers.zip
+  guessed:
+    - https://media.rockstargames.com/VI/downloads/videos/GTAVI_Trailer_3.zip
+    - https://media.rockstargames.com/VI/downloads/screenshots/GTAVI_Online_Screenshots.zip
+    - https://media.rockstargames.com/VI/downloads/screenshots/GTAVI_PC_Screenshots.zip
+    - https://media.rockstargames.com/VI/downloads/artwork_wallpapers/GTAVI_PC_Artwork_Wallpapers.zip
+
+# Known media counts as of recon (the bot tracks deltas against these).
+media_counts_baseline:
+  videos: 11
+  screenshots: 70
+  ultimate_edition_benefits: 51
+  vintage_vice_city_pack: 12
+  artwork_wallpapers: 20
+
+# ----- Content-hashed share images (swap = pre-announcement tell) ------------
+share_images:
+  - https://www.rockstargames.com/VI/-/opengraph-image.jpg
+  - https://www.rockstargames.com/VI/-/twitter-image.jpg
+
+# ----- Unlinked-page probes -------------------------------------------------
+# We request these directly. A 404 -> 200 transition is a strong early signal.
+probe_paths:
+  base: https://www.rockstargames.com
+  paths:
+    - /VI/pc
+    - /VI/online
+    - /VI/gta-online
+    - /VI/buy
+    - /VI/preorder
+    - /VI/pre-order
+    - /VI/collectors-edition
+    - /VI/collectors
+    - /VI/special-edition
+    - /VI/trailer-3
+    - /VI/companion
+    - /VI/soundtrack
+    - /VI/system-requirements
+    # confirmed-live media subroutes (watch for new ones appearing alongside)
+    - /VI/media/videos
+    - /VI/media/screenshots
+    - /VI/media/artwork-wallpapers
+    - /VI/world
+    - /VI/characters
+    - /VI/vice-city
+
+# ----- Optional: first-party storefronts (PC-reveal radar) ------------------
+# Toggle enabled: true to watch. A live Steam/Epic page == the PC announcement.
+storefronts:
+  enabled: false
+  urls:
+    - https://store.epicgames.com/en-US/p/grand-theft-auto-vi
+    - https://store.steampowered.com/search/?term=grand+theft+auto+vi
+
+# ----- Certificate Transparency (subdomain early-warning) -------------------
+# New subdomains (preorder., signup., vi-pc., gta6online., ...) appear in public
+# CT logs when Rockstar provisions a TLS cert -- often before the subdomain is
+# linked or announced. The page may 404, but the NAME leaks. Caveat: if they use
+# a wildcard cert (*.rockstargames.com) individual names won't show; the bot
+# reports wildcard_only=true on its first run so you know if the vector is live.
+cert_transparency:
+  enabled: true
+  domains:
+    - rockstargames.com
+    - take2games.com
+  # Subdomains containing any of these tokens are scored CRITICAL on first sight.
+  hot_tokens: [gta6, gtavi, "vi-", "vi.", preorder, pre-order, online, pc, store, signup, buy, beta, launch]
+
+# ----- Discovery crawl (find NEW pages anywhere, without guessing) -----------
+# Crawls official hub pages, follows links one hop, and collects every URL on
+# official domains. A NEW url that matches hot_tokens (i.e. GTA6-relevant) fires
+# new_official_url (HIGH) -- even a microsite outside the /VI app. New links to
+# other games are absorbed into the baseline silently (no spam).
+discovery:
+  enabled: true
+  seeds:
+    - https://www.rockstargames.com/
+    - https://www.rockstargames.com/games
+    - https://www.rockstargames.com/newswire
+    - https://www.rockstargames.com/VI
+  official_domains: [rockstargames.com, take2games.com, rockstarnorth.com]
+  hot_tokens: [vi, gta6, gtavi, "grand-theft-auto-vi", leonida, "vice-city", jason, lucia]
+  max_pages: 25
+  max_depth: 1
+
+# ----- Keyword watchlist (greps HTML + JS bundles) --------------------------
+keywords:
+  critical:
+    [pc, steam, epic, "rockstar games launcher", "system requirements",
+     "geforce", "geforce now", "min spec", "recommended spec"]
+  high:
+    [online, "gta online", "gta+", collector, "collector's", "special edition",
+     "release date", "now available", "out now", "available now"]
+  medium:
+    [trailer, preorder, "pre-order", "pre-load", preload, beta,
+     "early access", soundtrack, "companion app"]
+  date_regex: '\b20(2[6-9]|3[0-9])\b'
+  price_regex: '[£$]\d{2,3}\.\d{2}'   # catches both $ and £ price strings
+
+# ----- Severity mapping -----------------------------------------------------
+# Maps detected change types -> alert severity. Tune freely.
+severity:
+  CRITICAL:
+    [new_probe_live, critical_keyword_new, new_newswire_article, storefront_live,
+     new_download_live, hot_subdomain]
+  HIGH:
+    [og_image_changed, new_route, high_keyword_new, new_sitemap_url,
+     title_changed, desc_changed, date_string_new, price_string_new,
+     download_changed, share_image_changed, new_subdomain, new_manifest_route,
+     new_official_url]
+  MEDIUM:
+    [new_media_asset, media_count_changed, medium_keyword_new, robots_changed]
+  LOW:
+    [bundle_hash_changed]
+  NOISE:
+    [fingerprint_only]
+
+# Alerts fire at this severity and above. (CRITICAL > HIGH > MEDIUM > LOW > NOISE)
+alert_threshold: HIGH

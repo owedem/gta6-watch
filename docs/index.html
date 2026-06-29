@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GTA6 Watch</title>
+<style>
+  :root{
+    --bg:#0a0e14; --panel:#111826; --line:#1f2a3a; --text:#e6edf3; --muted:#8b98a9;
+    --pink:#ff4d8d; --cyan:#36d6e7; --green:#3ddc97; --amber:#ffb454; --red:#ff5d6c; --violet:#a982ff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font:14px/1.5 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+  a{color:var(--cyan);text-decoration:none} a:hover{text-decoration:underline}
+  .wrap{max-width:920px;margin:0 auto;padding:22px 18px 70px}
+  header{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:18px}
+  h1{font-size:24px;margin:0;letter-spacing:.5px} h1 .vi{color:var(--pink)}
+  .sub{color:var(--muted);font-size:12px;margin-top:2px}
+  .cd{text-align:right} .cd b{font-size:26px;color:var(--cyan);line-height:1}
+  .cd span{display:block;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:1px}
+  .updated{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:11.5px;margin-bottom:12px;flex-wrap:wrap}
+  .updated .rf{cursor:pointer;color:var(--cyan);border:1px solid var(--line);border-radius:7px;padding:3px 10px}
+  .updated .rf:hover{border-color:var(--cyan)}
+  .strip{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:8px}
+  @media(max-width:620px){.strip{grid-template-columns:repeat(2,1fr)}}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:11px 13px}
+  .card .k{color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:1px}
+  .card .v{font-size:15px;font-weight:700;margin-top:4px}
+  .card .v small{font-weight:400;color:var(--muted);font-size:11px}
+  .dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;vertical-align:middle}
+  .d-ok{background:var(--green)} .d-watch{background:var(--amber)} .d-hot{background:var(--red)}
+  h2{font-size:12px;text-transform:uppercase;letter-spacing:1.4px;color:var(--muted);
+    margin:24px 0 9px;display:flex;align-items:center;justify-content:space-between}
+  h2 .act{font-size:11px;letter-spacing:.5px;text-transform:none;cursor:pointer;color:var(--cyan)}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  /* open questions */
+  .q{display:flex;align-items:center;gap:10px;padding:9px 14px;border-bottom:1px solid var(--line);cursor:pointer}
+  .q:last-child{border-bottom:0} .q:hover{background:#0c1220}
+  .q .ql{flex:1} .q .qf{color:var(--muted);font-size:11px}
+  .q.sel{background:rgba(54,214,231,.07)}
+  /* change log */
+  .filterbar{display:none;padding:8px 14px;background:rgba(255,180,84,.08);border-bottom:1px solid var(--line);
+    font-size:12px;color:var(--amber)}
+  .filterbar b{color:var(--text)} .filterbar .x{cursor:pointer;float:right;color:var(--muted)}
+  .row{display:flex;gap:11px;align-items:flex-start;padding:10px 14px;border-bottom:1px solid var(--line)}
+  .row:last-child{border-bottom:0}
+  .sev{flex:0 0 64px;font-size:9px;font-weight:800;letter-spacing:.4px;padding-top:3px}
+  .CRITICAL{color:var(--red)} .HIGH{color:var(--amber)} .MEDIUM{color:var(--cyan)}
+  .LOW{color:var(--muted)} .NOISE{color:#55617a} .HISTORICAL{color:var(--violet)}
+  .row .b{flex:1;min-width:0} .row .t{font-weight:600}
+  .row .d{color:var(--muted);font-size:12.5px;word-break:break-word}
+  .row .w{color:#5a6678;font-size:10.5px;white-space:nowrap}
+  .empty{color:var(--muted);padding:16px 14px;font-size:13px}
+  /* probes */
+  .watch{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:7px;padding:12px 14px}
+  .probe{display:flex;justify-content:space-between;gap:8px;background:#0c1220;border:1px solid var(--line);
+    border-radius:8px;padding:7px 9px;font-size:12.5px}
+  .probe a{color:var(--text)} .probe .s{font-weight:700}
+  .s404{color:#55617a} .slive{color:var(--green)} .sother{color:var(--amber)}
+  /* kb */
+  .kb{columns:2;column-gap:12px;padding:4px 0} @media(max-width:620px){.kb{columns:1}}
+  .ki{break-inside:avoid;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+    padding:10px 13px;margin:0 14px 11px}
+  .ki .kk{color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:1px}
+  .ki .kv{margin-top:4px;font-size:13px}
+  footer{color:#55617a;font-size:11px;margin-top:26px;text-align:center}
+  /* modal */
+  .overlay{display:none;position:fixed;inset:0;background:rgba(4,7,12,.82);z-index:50;padding:30px 16px}
+  .overlay.on{display:block}
+  .modal{max-width:840px;margin:0 auto;background:var(--bg);border:1px solid var(--line);border-radius:14px;
+    max-height:88vh;display:flex;flex-direction:column}
+  .modal .mh{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;border-bottom:1px solid var(--line)}
+  .modal .mh b{font-size:15px} .modal .mh .x{cursor:pointer;color:var(--muted);font-size:20px;line-height:1}
+  .modal .mb{overflow:auto}
+  .chip{display:inline-block;font-size:10px;font-weight:700;padding:1px 8px;border-radius:999px;
+    background:#0c1220;border:1px solid var(--line);color:var(--muted);cursor:pointer;margin-left:6px}
+  .chip.on{color:var(--text);border-color:var(--cyan)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>GTA<span class="vi">6</span> Watch</h1>
+      <div class="sub" id="sub">official-source monitor</div>
+    </div>
+    <div class="cd"><b id="cd">—</b><span>days to launch</span></div>
+  </header>
+
+  <div class="strip" id="strip"></div>
+
+  <div class="updated" id="updated"></div>
+
+  <h2>Open questions <span class="act" id="clearq" style="display:none">clear filter ✕</span></h2>
+  <div class="panel" id="questions"></div>
+
+  <h2>Change log <span class="act" id="expand">expand ⤢</span></h2>
+  <div class="panel">
+    <div class="filterbar" id="filterbar"></div>
+    <div id="log"></div>
+  </div>
+
+  <h2>Watched surfaces</h2>
+  <div class="panel"><div class="watch" id="probes"></div></div>
+
+  <h2>Knowledge base</h2>
+  <div class="kb" id="kb"></div>
+
+  <footer id="foot">official sources only</footer>
+</div>
+
+<div class="overlay" id="overlay">
+  <div class="modal">
+    <div class="mh">
+      <b>Change log — full history</b>
+      <div>
+        <span class="chip on" data-sev="ALL">all</span>
+        <span class="chip" data-sev="CRITICAL">critical</span>
+        <span class="chip" data-sev="HIGH">high</span>
+        <span class="x" id="mclose">✕</span>
+      </div>
+    </div>
+    <div class="mb" id="modallog"></div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script>
+(function(){
+  var D = window.GTA6_DATA || {}, K = D.knowledge || {};
+  var $ = function(id){return document.getElementById(id)};
+  var log = (D.changelog||[]).slice().reverse();
+  var filterKw = null, modalSev = "ALL";
+
+  // countdown + freshness
+  $("cd").textContent = Math.max(0, Math.ceil((new Date("2026-11-19T00:00:00Z")-new Date())/864e5));
+  $("sub").textContent = "official-source monitor";
+  $("foot").textContent = "official sources only · KB " + ((K.meta&&K.meta.generated)||"—");
+  function rel(ts){var d=new Date(ts);if(isNaN(d.getTime()))return ts||"—";var s=Math.floor((Date.now()-d)/1e3);
+    if(s<60)return s+"s ago";if(s<3600)return Math.floor(s/60)+"m ago";if(s<86400)return Math.floor(s/3600)+"h ago";return Math.floor(s/86400)+"d ago";}
+  var lastRun=(D.status&&D.status.last_run)||D.generated||"";
+  $("updated").innerHTML='<span class="rf" id="refresh">↻ Refresh</span>'+
+    '<span>Updated <b style="color:var(--text)">'+rel(lastRun)+'</b><span style="opacity:.55"> · '+(lastRun||"—")+'</span></span>'+
+    '<span style="margin-left:auto">auto-refreshes every run (~15 min)</span>';
+  $("refresh").onclick=function(){location.reload();};
+
+  // ---- link builder for a change entry ----
+  var PAGES={home:"/VI","only-in-leonida":"/VI/only-in-leonida",media:"/VI/media",editions:"/VI/editions"};
+  function linkFor(c){
+    var t=(c.target||"");
+    if(/^https?:\/\//.test(t)) return t;
+    if(c.type==="new_manifest_route"&&t.charAt(0)==="/") return "https://www.rockstargames.com/VI"+(t==="/"?"":t);
+    if(t.indexOf("/VI")===0) return "https://www.rockstargames.com"+t;
+    if(PAGES[t]) return "https://www.rockstargames.com"+PAGES[t];
+    if(/^[a-z0-9-]+(\.[a-z0-9-]+)+$/i.test(t)&&t.indexOf(" ")<0&&t.indexOf(".")>0&&!/\.(js|jpg|png|zip)$/.test(t)) return "https://"+t;
+    return null;
+  }
+
+  // ---- status strip ----
+  var rel=K.release||{}, pcs=(K.platforms&&K.platforms.pc)||{}, onl=(K.modes&&K.modes.online)||{}, ed=K.editions||{};
+  function dot(c){return '<span class="dot '+c+'"></span>'}
+  var ukStd=(ed.standard&&ed.standard.price_gbp), ukUlt=(ed.ultimate&&ed.ultimate.price_gbp);
+  var priceVal = ukStd ? (dot('d-ok')+'£'+ukStd) : '<small>TBC</small>';
+  $("strip").innerHTML=[
+    {k:"Release",v:dot('d-ok')+(rel.label_short||rel.label||"—")},
+    {k:"PC version",v:dot('d-hot')+(pcs.status||"—")},
+    {k:"GTA Online",v:dot('d-watch')+((onl.status||"—").replace(' at launch',''))},
+    {k:"UK price (Std)",v:priceVal}
+  ].map(function(c){return '<div class="card"><div class="k">'+c.k+'</div><div class="v">'+c.v+'</div></div>'}).join("");
+
+  // ---- open questions (functional: click to filter log) ----
+  function qKeyword(q){
+    q=(q||"").toLowerCase();
+    if(q.indexOf(" pc")>=0||q.indexOf("pc ")>=0||q.indexOf("(pc")>=0) return {kw:"pc",label:"PC"};
+    if(q.indexOf("online")>=0) return {kw:"online",label:"Online"};
+    if(q.indexOf("uk")>=0||q.indexOf("£")>=0||q.indexOf("pric")>=0) return {kw:"price",label:"price/£"};
+    if(q.indexOf("collector")>=0) return {kw:"collector",label:"collector"};
+    if(q.indexOf("map")>=0) return {kw:"map",label:"map"};
+    if(q.indexOf("trailer")>=0) return {kw:"trailer",label:"trailer"};
+    if(q.indexOf("date")>=0) return {kw:"date",label:"date"};
+    return {kw:(q.split(" ")[0]||""),label:q.split(" ")[0]};
+  }
+  var qs=(K.open_questions||[]);
+  $("questions").innerHTML = qs.length ? qs.map(function(q){
+    var m=qKeyword(q);
+    return '<div class="q" data-kw="'+m.kw+'"><span class="dot d-watch"></span>'+
+           '<span class="ql">'+q+'</span><span class="qf">watch: '+m.label+' →</span></div>';
+  }).join("") : '<div class="empty">No open questions.</div>';
+  Array.prototype.forEach.call(document.querySelectorAll(".q"),function(el){
+    el.onclick=function(){
+      var kw=el.getAttribute("data-kw");
+      if(filterKw===kw){filterKw=null;} else {filterKw=kw;}
+      Array.prototype.forEach.call(document.querySelectorAll(".q"),function(x){x.classList.toggle("sel",x===el&&filterKw)});
+      renderLog();
+    };
+  });
+  $("clearq").onclick=function(){filterKw=null;Array.prototype.forEach.call(document.querySelectorAll(".q"),function(x){x.classList.remove("sel")});renderLog();};
+
+  // ---- change log ----
+  function entryHTML(c){
+    var url=linkFor(c);
+    var head=(c.type||"")+(c.target?' · '+c.target:'');
+    if(url) head='<a href="'+url+'" target="_blank" rel="noopener">'+head+' ↗</a>';
+    return '<div class="row"><div class="sev '+(c.severity||"")+'">'+(c.severity||"")+'</div>'+
+      '<div class="b"><div class="t">'+head+'</div><div class="d">'+(c.detail||"")+'</div></div>'+
+      '<div class="w">'+(c.at||"")+'</div></div>';
+  }
+  function applyFilter(arr){
+    if(!filterKw) return arr;
+    return arr.filter(function(c){
+      return ((c.type||"")+" "+(c.target||"")+" "+(c.detail||"")).toLowerCase().indexOf(filterKw)>=0;
+    });
+  }
+  function renderLog(){
+    var arr=applyFilter(log);
+    $("filterbar").style.display=filterKw?"block":"none";
+    $("clearq").style.display=filterKw?"inline":"none";
+    if(filterKw) $("filterbar").innerHTML='Filtered by <b>'+filterKw+'</b> — '+arr.length+' entr'+(arr.length===1?'y':'ies')+'<span class="x" id="fx">clear ✕</span>';
+    $("log").innerHTML = arr.length ? arr.slice(0,12).map(entryHTML).join("")
+      : '<div class="empty">No matching changes yet. The monitor logs signals here as they happen.</div>';
+    if(arr.length>12) $("log").innerHTML+='<div class="empty"><a href="#" id="seeall">see all '+arr.length+' →</a></div>';
+    var fx=$("fx"); if(fx) fx.onclick=$("clearq").onclick;
+    var sa=$("seeall"); if(sa) sa.onclick=function(e){e.preventDefault();openModal();};
+  }
+
+  // ---- modal (expanded log) ----
+  function renderModal(){
+    var arr=log.filter(function(c){return modalSev==="ALL"||c.severity===modalSev;});
+    $("modallog").innerHTML = arr.length ? arr.map(entryHTML).join("") : '<div class="empty">None.</div>';
+  }
+  function openModal(){$("overlay").classList.add("on");renderModal();}
+  $("expand").onclick=openModal;
+  $("mclose").onclick=function(){$("overlay").classList.remove("on")};
+  $("overlay").onclick=function(e){if(e.target===$("overlay"))$("overlay").classList.remove("on")};
+  Array.prototype.forEach.call(document.querySelectorAll(".chip"),function(ch){
+    ch.onclick=function(){modalSev=ch.getAttribute("data-sev");
+      Array.prototype.forEach.call(document.querySelectorAll(".chip"),function(x){x.classList.toggle("on",x===ch)});
+      renderModal();};
+  });
+
+  // ---- probes ----
+  var pr=(D.watched&&D.watched.probes)||{};
+  var keys=Object.keys(pr);
+  $("probes").innerHTML = keys.length ? keys.map(function(p){
+    var s=pr[p], cls=s===404?'s404':((s===200||s===301||s===302)?'slive':'sother');
+    return '<div class="probe"><a href="https://www.rockstargames.com'+p+'" target="_blank" rel="noopener">'+p+'</a><span class="s '+cls+'">'+(s||'—')+'</span></div>';
+  }).join("") : '<div class="empty">Probe results appear after the first run.</div>';
+
+  // ---- knowledge base (compact) ----
+  function ki(k,v){return '<div class="ki"><div class="kk">'+k+'</div><div class="kv">'+v+'</div></div>'}
+  var kb=[];
+  if(rel.label) kb.push(ki("Release",rel.label+(rel.preload?' · pre-load '+rel.preload:'')));
+  if(K.platforms) kb.push(ki("Platforms",(K.platforms.confirmed||[]).join(", ")+" · <b style='color:var(--red)'>PC: "+(pcs.status||"?")+"</b>"));
+  if(ed.standard) kb.push(ki("Editions","Std £"+(ukStd||"?")+" / Ult £"+(ukUlt||"?")+" <small style='color:var(--muted)'>· US $"+((ed.standard||{}).price_usd)+"/$"+((ed.ultimate||{}).price_usd)+"</small>"));
+  if(K.setting) kb.push(ki("Setting",K.setting.state+" — "+(K.setting.regions||[]).join(", ")));
+  if(K.characters) kb.push(ki("Cast",(K.characters.protagonists||[]).map(function(p){return p.name}).join(" & ")+(K.characters.supporting?" + "+K.characters.supporting.length+" supporting":"")));
+  if(K.trailers) kb.push(ki("Trailers",K.trailers.map(function(t){return t.name}).join(" · ")));
+  $("kb").innerHTML=kb.join("");
+
+  renderLog();
+})();
+</script>
+</body>
+</html>

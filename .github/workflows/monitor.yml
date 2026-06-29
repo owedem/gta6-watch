@@ -1,0 +1,47 @@
+name: gta6-watch
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # every 15 min (GitHub may delay during peak load)
+  workflow_dispatch: {}        # manual run button
+
+# Allow the job to commit state back and open issues on alerts
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: gta6-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run monitor
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          ALERT_WEBHOOK: ${{ secrets.ALERT_WEBHOOK }}   # optional Discord/Slack webhook
+        run: python monitor.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name  "gta6-watch[bot]"
+          git config user.email "gta6-watch@users.noreply.github.com"
+          git add state/ docs/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "watch: update state @ $(date -u +%FT%TZ)"
+            git push
+          fi

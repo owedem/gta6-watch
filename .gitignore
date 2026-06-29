@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NOTE: state/*.json and docs/* ARE committed on purpose —
+# that's how history persists and how GitHub Pages serves the dashboard.
