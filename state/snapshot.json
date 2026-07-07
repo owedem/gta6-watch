@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-06T22:51:03Z",
+  "generated": "2026-07-07T10:39:20Z",
   "pages": {
     "home": {
       "title": "Grand Theft Auto VI - Rockstar Games",
@@ -320,11 +320,11 @@
   "investor": {
     "take-two-press": {
       "status": 404,
-      "hash": "3cea8e761374bff1"
+      "hash": "6046cd7e07f49242"
     },
     "take-two-ir": {
       "status": 200,
-      "hash": "8a423eb7a0242516"
+      "hash": "f2bb5eca6781f8a9"
     }
   },
   "downloads": {
@@ -402,8 +402,8 @@
     "subdomains": [],
     "wildcard_only": true,
     "errors": [
-      "crt.sh rockstargames.com: Expecting value: line 1 column 1 (char 0)",
-      "crt.sh take2games.com: HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=20)"
+      "crt.sh rockstargames.com: HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=20)",
+      "crt.sh take2games.com: Expecting value: line 1 column 1 (char 0)"
     ]
   },
   "manifest_routes": {
