@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T17:42:07Z",
+  "generated": "2026-07-11T20:27:45Z",
   "pages": {
     "home": {
       "title": "Grand Theft Auto VI - Rockstar Games",
@@ -320,11 +320,11 @@
   "investor": {
     "take-two-press": {
       "status": 404,
-      "hash": "4bfddbb3a853db45"
+      "hash": "710cdb842c0a6b1a"
     },
     "take-two-ir": {
       "status": 200,
-      "hash": "6b8aa725556f8081"
+      "hash": "5c962fd3d8ed824e"
     }
   },
   "downloads": {
@@ -402,8 +402,8 @@
     "subdomains": [],
     "wildcard_only": true,
     "errors": [
-      "crt.sh rockstargames.com: Expecting value: line 1 column 1 (char 0)",
-      "crt.sh take2games.com: Expecting value: line 1 column 1 (char 0)"
+      "crt.sh rockstargames.com: HTTPSConnectionPool(host='crt.sh', port=443): Max retries exceeded with url: /?q=%25.rockstargames.com&output=json (Caused by NewConnectionError(\"HTTPSConnection(host='crt.sh', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+      "crt.sh take2games.com: HTTPSConnectionPool(host='crt.sh', port=443): Max retries exceeded with url: /?q=%25.take2games.com&output=json (Caused by NewConnectionError(\"HTTPSConnection(host='crt.sh', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     ]
   },
   "manifest_routes": {
