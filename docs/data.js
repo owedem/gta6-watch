@@ -1,5 +1,5 @@
 window.GTA6_DATA = {
-  "generated": "2026-08-22T00:02:57Z",
+  "generated": "2026-08-22T01:22:43Z",
   "knowledge": {
     "meta": {
       "game": "Grand Theft Auto VI",
@@ -1607,7 +1607,7 @@ window.GTA6_DATA = {
     }
   ],
   "status": {
-    "last_run": "2026-08-22T00:02:57Z",
+    "last_run": "2026-08-22T01:22:43Z",
     "changes_this_run": 0,
     "errors": [],
     "probes": {
