@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-23T09:49:50Z",
+  "generated": "2026-08-23T10:13:27Z",
   "pages": {
     "home": {
       "title": "Grand Theft Auto VI - Rockstar Games",
@@ -328,11 +328,11 @@
   "investor": {
     "take-two-press": {
       "status": 404,
-      "hash": "f22b744842bb18b3"
+      "hash": "c3a78b444ca2ae7f"
     },
     "take-two-ir": {
       "status": 200,
-      "hash": "be42a25643ad3bfa"
+      "hash": "bc4ec059aff7868f"
     }
   },
   "downloads": {
