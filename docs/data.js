@@ -1,5 +1,5 @@
 window.GTA6_DATA = {
-  "generated": "2026-08-28T01:16:31Z",
+  "generated": "2026-08-28T12:49:59Z",
   "knowledge": {
     "meta": {
       "game": "Grand Theft Auto VI",
@@ -1607,8 +1607,8 @@ window.GTA6_DATA = {
     }
   ],
   "status": {
-    "last_run": "2026-08-28T01:16:31Z",
-    "changes_this_run": 9,
+    "last_run": "2026-08-28T12:49:59Z",
+    "changes_this_run": 0,
     "errors": [],
     "probes": {
       "/VI/pc": 404,
@@ -1719,24 +1719,24 @@ window.GTA6_DATA = {
     },
     "deploy": {
       "home": {
-        "etag": "\"j48i8vzmphkyu8\"",
+        "etag": "\"9wuflm0vwdkyu8\"",
         "last_modified": null,
-        "html_hash": "534f8d946bfa9efe"
+        "html_hash": "5006dafd0b437610"
       },
       "only-in-leonida": {
-        "etag": "\"15c72gdnlkji1is\"",
+        "etag": "\"nzhjkzn20ti1is\"",
         "last_modified": null,
-        "html_hash": "2cf8f34afb198de4"
+        "html_hash": "e285069bad100f57"
       },
       "media": {
-        "etag": "\"8rsax5lytqfogi\"",
+        "etag": "\"hh0wuzz5utfogi\"",
         "last_modified": null,
-        "html_hash": "b17f69cb9020c402"
+        "html_hash": "cd47366342ecb482"
       },
       "editions": {
-        "etag": "\"ojg9v0qf7xc63l\"",
+        "etag": "\"b7zp1eh0qic63l\"",
         "last_modified": null,
-        "html_hash": "21165004c5708a1d"
+        "html_hash": "11920062b495533e"
       }
     }
   }
