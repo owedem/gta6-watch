@@ -8804,5 +8804,68 @@
     "target": "www.checkout.rockstargames.com",
     "detail": "NEW GTA6-relevant subdomain: www.checkout.rockstargames.com",
     "at": "2026-08-24T23:17:20Z"
+  },
+  {
+    "type": "new_media_asset",
+    "severity": "MEDIUM",
+    "target": "home",
+    "detail": "new media: /VI/_next/static/media/9k2kaa1o3297k9.0ux_qup1vxl7o.jpg",
+    "at": "2026-08-28T01:16:31Z"
+  },
+  {
+    "type": "new_media_asset",
+    "severity": "MEDIUM",
+    "target": "media",
+    "detail": "new media: /VI/_next/static/media/GTAVI_An_Extended_Look_poster.0ijbsha5fo1te.jpg",
+    "at": "2026-08-28T01:16:31Z"
+  },
+  {
+    "type": "new_media_asset",
+    "severity": "MEDIUM",
+    "target": "media",
+    "detail": "new media: /VI/_next/static/media/GTAVI_Trailer1_poster.12x2gvspcm_3m.jpg",
+    "at": "2026-08-28T01:16:31Z"
+  },
+  {
+    "type": "new_media_asset",
+    "severity": "MEDIUM",
+    "target": "media",
+    "detail": "new media: /VI/_next/static/media/GTAVI_Trailer2_poster.0cosv-uzbpt91.jpg",
+    "at": "2026-08-28T01:16:31Z"
+  },
+  {
+    "type": "media_count_changed",
+    "severity": "MEDIUM",
+    "target": "media",
+    "detail": "media count 19 -> 22",
+    "at": "2026-08-28T01:16:31Z"
+  },
+  {
+    "type": "download_changed",
+    "severity": "HIGH",
+    "target": "https://media.rockstargames.com/VI/downloads/videos/GTAVI_Videos.zip",
+    "detail": "media bundle updated (size 2100722181 -> 120851301)",
+    "at": "2026-08-28T01:16:31Z"
+  },
+  {
+    "type": "download_changed",
+    "severity": "HIGH",
+    "target": "https://media.rockstargames.com/VI/downloads/artwork_wallpapers/GTAVI_Artwork_Wallpapers.zip",
+    "detail": "media bundle updated (size 219022189 -> 219022309)",
+    "at": "2026-08-28T01:16:31Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://www.rockstargames.com/VI/trailer-1",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://www.rockstargames.com/VI/trailer-1",
+    "at": "2026-08-28T01:16:31Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://www.rockstargames.com/VI/trailer-2",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://www.rockstargames.com/VI/trailer-2",
+    "at": "2026-08-28T01:16:31Z"
   }
 ]

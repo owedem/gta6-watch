@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27T16:49:29Z",
+  "generated": "2026-08-28T01:13:12Z",
   "pages": {
     "home": {
       "title": "Grand Theft Auto VI - Rockstar Games",
@@ -14,8 +14,8 @@
         "/VI/only-in-leonida"
       ],
       "media": [
-        "/VI/_next/static/media/3642a34ab778931f321cc65c7d870a090dcfd4a4.0ia9.4vs63z~2.jpg",
         "/VI/_next/static/media/5171972o3ak5oa.15416o23e-~x2.jpg",
+        "/VI/_next/static/media/9k2kaa1o3297k9.0ux_qup1vxl7o.jpg",
         "/VI/_next/static/media/PBOPS5_badge_h_en_GB.0mdk5n0snqy6v.svg",
         "/VI/_next/static/media/VINTAGE_VICE_CITY_PACK_01.05zaof7o1uz.3.jpg",
         "/VI/_next/static/media/ak3ak31a49a221.01qomdzfhfg58.jpg",
@@ -46,34 +46,35 @@
       ],
       "bundle_urls": [
         "https://www.rockstargames.com/VI/_next/static/chunks/0-atb342mnkb2.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/03i3xgy-fnxld.js",
         "https://www.rockstargames.com/VI/_next/static/chunks/03~yq9q893hmn.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/04-kiouh~9zgz.js",
         "https://www.rockstargames.com/VI/_next/static/chunks/061kdr51uefki.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0dxdcst_mfw~g.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0fq1jzfbk29fx.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0g6s7ktvj6lz-.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0gp2ebhczn9me.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/07m6~296chk1-.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0cpx_0qtfvwkr.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0dmitufkus020.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0drx106jjftfo.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0f0azu_1zyc49.js",
         "https://www.rockstargames.com/VI/_next/static/chunks/0h_40t2z85jto.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0hw9i.ng501xc.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0ksx0o-2j6hcb.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0pmugb3vt.3d0.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0iv.c-kr-36dw.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0j6-5rgdciu-4.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0pwxil9ylb7rz.js",
         "https://www.rockstargames.com/VI/_next/static/chunks/0qq7wjjxr.9wr.js",
         "https://www.rockstargames.com/VI/_next/static/chunks/0tmh89i3w-z0p.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0vmj8d0zetbon.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0xj_hdynv150c.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0xs_y2s.s~~p..js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/11mn8zk4f.6f9.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0xjzbz6q5ie-b.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/10zxev~eudfrr.js",
         "https://www.rockstargames.com/VI/_next/static/chunks/12gvsv7psyzmm.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/137o-zzchtz00.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/13f~1pp5gvx41.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/14c09wt3dff4v.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/1523jydhcb-.n.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/160gux41e0dpt.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/turbopack-0i~qa8qd0vmx6.js"
+        "https://www.rockstargames.com/VI/_next/static/chunks/1399fh2yz13s_.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/14cph5.7ipg-5.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/14vrytu-2gi0e.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/17-qgb.3qoo15.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/17_dxjmxof7mb.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/turbopack-0qsmklcvfiio9.js"
       ],
       "fingerprint": {
-        "etag": "\"qikpklsjnuknz0\"",
+        "etag": "\"j48i8vzmphkyu8\"",
         "last_modified": null,
-        "html_hash": "2ce838f7c0327a6a"
+        "html_hash": "534f8d946bfa9efe"
       }
     },
     "only-in-leonida": {
@@ -130,34 +131,35 @@
       ],
       "bundle_urls": [
         "https://www.rockstargames.com/VI/_next/static/chunks/0-atb342mnkb2.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/00tm_7jdndzo~.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/03i3xgy-fnxld.js",
         "https://www.rockstargames.com/VI/_next/static/chunks/03~yq9q893hmn.js",
         "https://www.rockstargames.com/VI/_next/static/chunks/061kdr51uefki.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0a2cxm_aledml.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0dxdcst_mfw~g.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0fq1jzfbk29fx.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0gp2ebhczn9me.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/07m6~296chk1-.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0cpx_0qtfvwkr.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0dmitufkus020.js",
         "https://www.rockstargames.com/VI/_next/static/chunks/0h_40t2z85jto.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0ho0d5kpv.h8-.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0hw9i.ng501xc.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0isnh.6.6py69.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0pmugb3vt.3d0.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0iv.c-kr-36dw.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0j6-5rgdciu-4.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0m4ld-wfl5~a1.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0pwxil9ylb7rz.js",
         "https://www.rockstargames.com/VI/_next/static/chunks/0qq7wjjxr.9wr.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0ri~czh_4xt4~.js",
         "https://www.rockstargames.com/VI/_next/static/chunks/0tmh89i3w-z0p.js",
         "https://www.rockstargames.com/VI/_next/static/chunks/0vlh.r-t4jio2.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0vmj8d0zetbon.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0xj_hdynv150c.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/11mn8zk4f.6f9.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0xjzbz6q5ie-b.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/10zxev~eudfrr.js",
         "https://www.rockstargames.com/VI/_next/static/chunks/12gvsv7psyzmm.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/137o-zzchtz00.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/13f~1pp5gvx41.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/1523jydhcb-.n.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/160gux41e0dpt.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/turbopack-0i~qa8qd0vmx6.js"
+        "https://www.rockstargames.com/VI/_next/static/chunks/14cph5.7ipg-5.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/14vrytu-2gi0e.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/17-qgb.3qoo15.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/17_dxjmxof7mb.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/turbopack-0qsmklcvfiio9.js"
       ],
       "fingerprint": {
-        "etag": "\"ic09g2ampfhn6f\"",
+        "etag": "\"15c72gdnlkji1is\"",
         "last_modified": null,
-        "html_hash": "e7f2cf2d7577e0a1"
+        "html_hash": "2cf8f34afb198de4"
       }
     },
     "media": {
@@ -167,7 +169,10 @@
       "og_image": "https://www.rockstargames.com/VI/-/opengraph-image.jpg?opengraph-image.0t8ty~nlmxq2s.jpg",
       "media": [
         "/VI/_next/static/media/Cal_Hampton_03.0.q68~pt1to9z.jpg",
+        "/VI/_next/static/media/GTAVI_An_Extended_Look_poster.0ijbsha5fo1te.jpg",
         "/VI/_next/static/media/GTAVI_Official_Cover_Art_Landscape.03y6bcce9e2jr.jpg",
+        "/VI/_next/static/media/GTAVI_Trailer1_poster.12x2gvspcm_3m.jpg",
+        "/VI/_next/static/media/GTAVI_Trailer2_poster.0cosv-uzbpt91.jpg",
         "/VI/_next/static/media/Jason_Duval_Video_Clip.024oe-y640yxp.jpg",
         "/VI/_next/static/media/Jason_and_Lucia_Robbery_landscape.09c8a~do21h4p.jpg",
         "/VI/_next/static/media/Lucia_Caminos_06.0fxbjfk0jakb3.jpg",
@@ -186,14 +191,14 @@
         "/VI/_next/static/media/hero.0q5-tr6h86ai7.jpg",
         "/VI/_next/static/media/vi.0hxa9~pf214xe.png"
       ],
-      "media_count": 19,
+      "media_count": 22,
       "media_counts": {
         "Vintage Vice City Pack": 1
       },
       "fingerprint": {
-        "etag": "\"zf3htr8bg1dzgt\"",
+        "etag": "\"8rsax5lytqfogi\"",
         "last_modified": null,
-        "html_hash": "cc9e6c46c6c9759b"
+        "html_hash": "b17f69cb9020c402"
       }
     },
     "editions": {
@@ -210,65 +215,66 @@
       ],
       "bundle_urls": [
         "https://www.rockstargames.com/VI/_next/static/chunks/0-atb342mnkb2.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/03i3xgy-fnxld.js",
         "https://www.rockstargames.com/VI/_next/static/chunks/03~yq9q893hmn.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/044ksbdj4sqqm.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/05w6jkt9okeeo.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0471a_dmt_jm0.js",
         "https://www.rockstargames.com/VI/_next/static/chunks/061kdr51uefki.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0dxdcst_mfw~g.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0fq1jzfbk29fx.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0gp2ebhczn9me.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/07m6~296chk1-.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0cpx_0qtfvwkr.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0dmitufkus020.js",
         "https://www.rockstargames.com/VI/_next/static/chunks/0h_40t2z85jto.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0hw9i.ng501xc.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0j6-5rgdciu-4.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0lsvfo1rfuxsy.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0pwxil9ylb7rz.js",
         "https://www.rockstargames.com/VI/_next/static/chunks/0qq7wjjxr.9wr.js",
         "https://www.rockstargames.com/VI/_next/static/chunks/0tmh89i3w-z0p.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0vmj8d0zetbon.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/0xj_hdynv150c.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/11mn8zk4f.6f9.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/0xjzbz6q5ie-b.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/10zxev~eudfrr.js",
         "https://www.rockstargames.com/VI/_next/static/chunks/12gvsv7psyzmm.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/137o-zzchtz00.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/13f~1pp5gvx41.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/1523jydhcb-.n.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/160gux41e0dpt.js",
-        "https://www.rockstargames.com/VI/_next/static/chunks/turbopack-0i~qa8qd0vmx6.js"
+        "https://www.rockstargames.com/VI/_next/static/chunks/14vrytu-2gi0e.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/17-qgb.3qoo15.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/17_dxjmxof7mb.js",
+        "https://www.rockstargames.com/VI/_next/static/chunks/turbopack-0qsmklcvfiio9.js"
       ],
       "fingerprint": {
-        "etag": "\"rrj3nh4t8ibv2s\"",
+        "etag": "\"ojg9v0qf7xc63l\"",
         "last_modified": null,
-        "html_hash": "6d849a40a436c132"
+        "html_hash": "21165004c5708a1d"
       }
     }
   },
   "bundles": {
     "https://www.rockstargames.com/VI/_next/static/chunks/0-atb342mnkb2.js": "0b5a0b59c4ee6e91",
+    "https://www.rockstargames.com/VI/_next/static/chunks/00tm_7jdndzo~.js": "617cff8cc7a13e26",
+    "https://www.rockstargames.com/VI/_next/static/chunks/03i3xgy-fnxld.js": "4160e646fbeb3876",
     "https://www.rockstargames.com/VI/_next/static/chunks/03~yq9q893hmn.js": "0973c1d64c88adc8",
-    "https://www.rockstargames.com/VI/_next/static/chunks/044ksbdj4sqqm.js": "5edf5c2c93f8ddc2",
-    "https://www.rockstargames.com/VI/_next/static/chunks/05w6jkt9okeeo.js": "4f48307e69c6e96a",
+    "https://www.rockstargames.com/VI/_next/static/chunks/04-kiouh~9zgz.js": "73fd0c26eac8d97a",
+    "https://www.rockstargames.com/VI/_next/static/chunks/0471a_dmt_jm0.js": "735797472de23b75",
     "https://www.rockstargames.com/VI/_next/static/chunks/061kdr51uefki.js": "c4f6b247515075e5",
-    "https://www.rockstargames.com/VI/_next/static/chunks/0a2cxm_aledml.js": "4978781f62483dbc",
-    "https://www.rockstargames.com/VI/_next/static/chunks/0dxdcst_mfw~g.js": "283dcb2cbd68c6c1",
-    "https://www.rockstargames.com/VI/_next/static/chunks/0fq1jzfbk29fx.js": "16461077dc27a359",
-    "https://www.rockstargames.com/VI/_next/static/chunks/0g6s7ktvj6lz-.js": "2f4668253bb8a0d4",
-    "https://www.rockstargames.com/VI/_next/static/chunks/0gp2ebhczn9me.js": "23676b96940b09bf",
+    "https://www.rockstargames.com/VI/_next/static/chunks/07m6~296chk1-.js": "9c939aa441b2a4ec",
+    "https://www.rockstargames.com/VI/_next/static/chunks/0cpx_0qtfvwkr.js": "16461077dc27a359",
+    "https://www.rockstargames.com/VI/_next/static/chunks/0dmitufkus020.js": "d1e81e9cc2dc2fbd",
+    "https://www.rockstargames.com/VI/_next/static/chunks/0drx106jjftfo.js": "b381bf40c9ec6b39",
+    "https://www.rockstargames.com/VI/_next/static/chunks/0f0azu_1zyc49.js": "d7145af9dce512bb",
     "https://www.rockstargames.com/VI/_next/static/chunks/0h_40t2z85jto.js": "47b17a548483ea84",
-    "https://www.rockstargames.com/VI/_next/static/chunks/0ho0d5kpv.h8-.js": "0cd46040fb82bcc3",
-    "https://www.rockstargames.com/VI/_next/static/chunks/0hw9i.ng501xc.js": "c5cdcfeb34144035",
-    "https://www.rockstargames.com/VI/_next/static/chunks/0isnh.6.6py69.js": "138bcbb8b4c7fc6f",
-    "https://www.rockstargames.com/VI/_next/static/chunks/0ksx0o-2j6hcb.js": "aa34a722e4c1e676",
-    "https://www.rockstargames.com/VI/_next/static/chunks/0pmugb3vt.3d0.js": "bda90092c41bc784",
+    "https://www.rockstargames.com/VI/_next/static/chunks/0iv.c-kr-36dw.js": "9ad4fac45a05398d",
+    "https://www.rockstargames.com/VI/_next/static/chunks/0j6-5rgdciu-4.js": "d8f06b2bf6c2f31a",
+    "https://www.rockstargames.com/VI/_next/static/chunks/0lsvfo1rfuxsy.js": "5aac2aa48aff09bf",
+    "https://www.rockstargames.com/VI/_next/static/chunks/0m4ld-wfl5~a1.js": "cfa7529d80137cca",
+    "https://www.rockstargames.com/VI/_next/static/chunks/0pwxil9ylb7rz.js": "c9229932cb64269d",
     "https://www.rockstargames.com/VI/_next/static/chunks/0qq7wjjxr.9wr.js": "ab8bd45759c3a70b",
+    "https://www.rockstargames.com/VI/_next/static/chunks/0ri~czh_4xt4~.js": "75dcd5cfcb4506c8",
     "https://www.rockstargames.com/VI/_next/static/chunks/0tmh89i3w-z0p.js": "e4b533a0ae604f26",
     "https://www.rockstargames.com/VI/_next/static/chunks/0vlh.r-t4jio2.js": "a2d0dbeb64f61e73",
-    "https://www.rockstargames.com/VI/_next/static/chunks/0vmj8d0zetbon.js": "e342fbc141a36f2e",
-    "https://www.rockstargames.com/VI/_next/static/chunks/0xj_hdynv150c.js": "d686a331b93c8c47",
-    "https://www.rockstargames.com/VI/_next/static/chunks/0xs_y2s.s~~p..js": "e27136af5e4c0a48",
-    "https://www.rockstargames.com/VI/_next/static/chunks/11mn8zk4f.6f9.js": "039c2228e023835d",
+    "https://www.rockstargames.com/VI/_next/static/chunks/0xjzbz6q5ie-b.js": "407ebe4de031d471",
+    "https://www.rockstargames.com/VI/_next/static/chunks/10zxev~eudfrr.js": "b6c53866d7eee270",
     "https://www.rockstargames.com/VI/_next/static/chunks/12gvsv7psyzmm.js": "4e35fcd9f4e83efc",
-    "https://www.rockstargames.com/VI/_next/static/chunks/137o-zzchtz00.js": "1c8f3448aa3dcb3d",
-    "https://www.rockstargames.com/VI/_next/static/chunks/13f~1pp5gvx41.js": "6d7f03a76be4dcd2",
-    "https://www.rockstargames.com/VI/_next/static/chunks/14c09wt3dff4v.js": "f2d2e7af41f9464d",
-    "https://www.rockstargames.com/VI/_next/static/chunks/1523jydhcb-.n.js": "4f824191a4deccd7",
-    "https://www.rockstargames.com/VI/_next/static/chunks/160gux41e0dpt.js": "5e4acf78f0b4b869",
-    "https://www.rockstargames.com/VI/_next/static/chunks/turbopack-0i~qa8qd0vmx6.js": "2ac352ba472ca173"
+    "https://www.rockstargames.com/VI/_next/static/chunks/1399fh2yz13s_.js": "1b9b495947bde38b",
+    "https://www.rockstargames.com/VI/_next/static/chunks/14cph5.7ipg-5.js": "d94895e41e0087af",
+    "https://www.rockstargames.com/VI/_next/static/chunks/14vrytu-2gi0e.js": "907a362305ed96ff",
+    "https://www.rockstargames.com/VI/_next/static/chunks/17-qgb.3qoo15.js": "9b7632007682aad9",
+    "https://www.rockstargames.com/VI/_next/static/chunks/17_dxjmxof7mb.js": "c440b10268d4ceeb",
+    "https://www.rockstargames.com/VI/_next/static/chunks/turbopack-0qsmklcvfiio9.js": "b445337631ae8626"
   },
   "bundle_findings": {
     "keywords": {
@@ -328,19 +334,19 @@
   "investor": {
     "take-two-press": {
       "status": 404,
-      "hash": "5a37ddcfc8a39121"
+      "hash": "8dd8f3bd4c8b378f"
     },
     "take-two-ir": {
       "status": 200,
-      "hash": "c26b0881530df373"
+      "hash": "f5da1b42e811f031"
     }
   },
   "downloads": {
     "https://media.rockstargames.com/VI/downloads/videos/GTAVI_Videos.zip": {
       "status": 200,
-      "size": "2100722181",
-      "last_modified": "Wed, 24 Jun 2026 20:56:14 GMT",
-      "etag": "\"7f042de593c8d0b4e64e5a3979ef3808:1782334546.278238\""
+      "size": "120851301",
+      "last_modified": "Fri, 28 Aug 2026 01:01:30 GMT",
+      "etag": "\"9a86b36dde5b2d1ed3dba109a99d2491:1787878883.28961\""
     },
     "https://media.rockstargames.com/VI/downloads/screenshots/GTAVI_Screenshots.zip": {
       "status": 200,
@@ -362,9 +368,9 @@
     },
     "https://media.rockstargames.com/VI/downloads/artwork_wallpapers/GTAVI_Artwork_Wallpapers.zip": {
       "status": 200,
-      "size": "219022189",
-      "last_modified": "Thu, 06 Aug 2026 12:00:34 GMT",
-      "etag": "\"4e1da1aaf1111dc15f184d6419cea21d:1786017625.563543\""
+      "size": "219022309",
+      "last_modified": "Fri, 28 Aug 2026 01:01:22 GMT",
+      "etag": "\"bf0f34e66b43a257a38bd1a7de507927:1787878869.581\""
     },
     "https://media.rockstargames.com/VI/downloads/videos/GTAVI_Trailer_3.zip": {
       "status": 404,
@@ -421,11 +427,6 @@
   },
   "discovery": {
     "urls": [
-      "https://media.rockstargames.com/VI/downloads/artwork_wallpapers/GTAVI_Artwork_Wallpapers.zip",
-      "https://media.rockstargames.com/VI/downloads/screenshots/GTAVI_Screenshots.zip",
-      "https://media.rockstargames.com/VI/downloads/screenshots/GTAVI_Ultimate_Edition_Benefits.zip",
-      "https://media.rockstargames.com/VI/downloads/screenshots/GTAVI_Vintage_Vice_City_Pack.zip",
-      "https://media.rockstargames.com/VI/downloads/videos/GTAVI_Videos.zip",
       "https://www.rockstargames.com/VI",
       "https://www.rockstargames.com/VI/an-extended-look",
       "https://www.rockstargames.com/VI/media",
@@ -433,12 +434,14 @@
       "https://www.rockstargames.com/VI/media/screenshots",
       "https://www.rockstargames.com/VI/media/videos",
       "https://www.rockstargames.com/VI/only-in-leonida",
+      "https://www.rockstargames.com/VI/trailer-1",
+      "https://www.rockstargames.com/VI/trailer-2",
       "https://www.rockstargames.com/ccpa",
       "https://www.rockstargames.com/cookies",
       "https://www.rockstargames.com/corpinfo",
       "https://www.rockstargames.com/legal",
+      "https://www.rockstargames.com/newswire/article/4k138k8okkk483",
       "https://www.rockstargames.com/newswire/article/5171972o3ak5oa/pre-order-grand-theft-auto-vi-on-june-25",
-      "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9",
       "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
       "https://www.rockstargames.com/privacy"
     ],
