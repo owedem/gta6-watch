@@ -8867,5 +8867,40 @@
     "target": "https://www.rockstargames.com/VI/trailer-2",
     "detail": "NEW official URL discovered (GTA6-relevant): https://www.rockstargames.com/VI/trailer-2",
     "at": "2026-08-28T01:16:31Z"
+  },
+  {
+    "type": "new_media_asset",
+    "severity": "MEDIUM",
+    "target": "home",
+    "detail": "new media: /VI/_next/static/media/mediaMobile.0p_yfitphljim.jpg",
+    "at": "2026-08-31T13:44:37Z"
+  },
+  {
+    "type": "new_media_asset",
+    "severity": "MEDIUM",
+    "target": "media",
+    "detail": "new media: /VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg",
+    "at": "2026-08-31T13:44:37Z"
+  },
+  {
+    "type": "new_media_asset",
+    "severity": "MEDIUM",
+    "target": "media",
+    "detail": "new media: /VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg",
+    "at": "2026-08-31T13:44:37Z"
+  },
+  {
+    "type": "new_media_asset",
+    "severity": "MEDIUM",
+    "target": "media",
+    "detail": "new media: /VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg",
+    "at": "2026-08-31T13:44:37Z"
+  },
+  {
+    "type": "download_changed",
+    "severity": "HIGH",
+    "target": "https://media.rockstargames.com/VI/downloads/screenshots/GTAVI_Screenshots.zip",
+    "detail": "media bundle updated (size 46246798 -> 72255931)",
+    "at": "2026-08-31T13:44:37Z"
   }
 ]
