@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02T19:46:07Z",
+  "generated": "2026-09-02T22:08:44Z",
   "pages": {
     "home": {
       "title": "Grand Theft Auto VI - Rockstar Games",
@@ -334,11 +334,11 @@
   "investor": {
     "take-two-press": {
       "status": 404,
-      "hash": "9c54a4f0cc143c24"
+      "hash": "f3ea10d9545cfdeb"
     },
     "take-two-ir": {
       "status": 200,
-      "hash": "77bc702cd04c25b2"
+      "hash": "0be526f08d4c57bc"
     }
   },
   "downloads": {
@@ -429,22 +429,17 @@
       "admin-rhf43f-prod.ros.rockstargames.com",
       "age-test.t2gp.take2games.com",
       "ai.take2games.com",
-      "alpha-royale-preview.t2gp.take2games.com",
       "alpha.scadmin.rockstargames.com",
       "anaplan.take2games.com",
       "api-dev-helm.t2gp.take2games.com",
-      "api-dev.dev.t2gp.take2games.com",
       "api-dev.t2gp.take2games.com",
       "api-int-helm.t2gp.take2games.com",
-      "api-int.dev.t2gp.take2games.com",
       "api-int.t2gp.take2games.com",
-      "api-loadtesting.t2gp.take2games.com",
       "api-rgl-dev.t2gp.take2games.com",
       "api-rgl-int.t2gp.take2games.com",
       "api-rgl.t2gp.take2games.com",
       "api-rhf43f-prod.ros.rockstargames.com",
       "api-rs.t2gp.take2games.com",
-      "api-sandbox.t2gp.take2games.com",
       "api.t2gp.take2games.com",
       "api.take2games.com",
       "apig.dev.prima.take2games.com",
@@ -499,10 +494,6 @@
       "cert.scui.rockstargames.com",
       "cert.store.rockstargames.com",
       "checkout-config.t2gp.take2games.com",
-      "checkout-develop.t2gp.take2games.com",
-      "checkout-integration.t2gp.take2games.com",
-      "checkout-preview.t2gp.take2games.com",
-      "checkout-staging.t2gp.take2games.com",
       "checkout.rockstargames.com",
       "checkout.t2gp.take2games.com",
       "click.newsletter.rockstargames.com",
@@ -756,7 +747,6 @@
       "pages.newsletter.rockstargames.com",
       "patches.rockstargames.com",
       "pd-identity-cdn-develop.t2gp.take2games.com",
-      "pe-publish-dev.t2gp.take2games.com",
       "playback.bugstar.rockstargames.com",
       "pmo.take2games.com",
       "poker-sandbox.t2gp.take2games.com",
@@ -780,7 +770,6 @@
       "prod-locator-cloud.rockstargames.com",
       "prod.api.take2games.com",
       "prod.b2b.take2games.com",
-      "prod.cdp-ingest.mt.take2games.com",
       "prod.cloud.rockstargames.com",
       "prod.edw.take2games.com",
       "prod.hosted.cloud.rockstargames.com",
@@ -943,7 +932,6 @@
       "status.t2gp.take2games.com",
       "statuspage-status.t2gp.take2games.com",
       "stayinformed.take2games.com",
-      "stg.cdp-ingest.mt.take2games.com",
       "store-develop.rockstargames.com",
       "store-integration.rockstargames.com",
       "store-preview.rockstargames.com",
@@ -988,13 +976,9 @@
       "tk2ewrrdg.take2games.com",
       "tk2nyc-vpn.take2games.com",
       "tools.sc.rockstargames.com",
-      "trusted-api-dev.dev.t2gp.take2games.com",
       "trusted-api-dev.t2gp.take2games.com",
-      "trusted-api-int.dev.t2gp.take2games.com",
       "trusted-api-int.t2gp.take2games.com",
-      "trusted-api-rgl-dev.dev.t2gp.take2games.com",
       "trusted-api-rgl-dev.t2gp.take2games.com",
-      "trusted-api-rgl-int.dev.t2gp.take2games.com",
       "trusted-api-rgl-int.t2gp.take2games.com",
       "trusted-api-rgl.t2gp.take2games.com",
       "trusted-api.t2gp.take2games.com",
