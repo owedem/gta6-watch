@@ -9441,5 +9441,33 @@
     "target": "vault.service.consul.take2games.com",
     "detail": "NEW GTA6-relevant subdomain: vault.service.consul.take2games.com",
     "at": "2026-09-02T19:49:47Z"
+  },
+  {
+    "type": "hot_subdomain",
+    "severity": "CRITICAL",
+    "target": "checkout-develop.t2gp.take2games.com",
+    "detail": "NEW GTA6-relevant subdomain: checkout-develop.t2gp.take2games.com",
+    "at": "2026-09-03T00:15:13Z"
+  },
+  {
+    "type": "hot_subdomain",
+    "severity": "CRITICAL",
+    "target": "checkout-integration.t2gp.take2games.com",
+    "detail": "NEW GTA6-relevant subdomain: checkout-integration.t2gp.take2games.com",
+    "at": "2026-09-03T00:15:13Z"
+  },
+  {
+    "type": "hot_subdomain",
+    "severity": "CRITICAL",
+    "target": "checkout-preview.t2gp.take2games.com",
+    "detail": "NEW GTA6-relevant subdomain: checkout-preview.t2gp.take2games.com",
+    "at": "2026-09-03T00:15:13Z"
+  },
+  {
+    "type": "hot_subdomain",
+    "severity": "CRITICAL",
+    "target": "checkout-staging.t2gp.take2games.com",
+    "detail": "NEW GTA6-relevant subdomain: checkout-staging.t2gp.take2games.com",
+    "at": "2026-09-03T00:15:13Z"
   }
 ]
