@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-09-24T21:46:15Z",
-  "changes_this_run": 0,
+  "last_run": "2026-09-25T00:03:26Z",
+  "changes_this_run": 27,
   "errors": [],
   "probes": {
     "/VI/pc": 404,
@@ -23,5 +23,5 @@
     "/VI/characters": 404,
     "/VI/vice-city": 200
   },
-  "total_changes_logged": 3167
+  "total_changes_logged": 3194
 }
