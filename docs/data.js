@@ -1,5 +1,5 @@
 window.GTA6_DATA = {
-  "generated": "2026-10-01T08:54:24Z",
+  "generated": "2026-10-01T15:52:27Z",
   "knowledge": {
     "meta": {
       "game": "Grand Theft Auto VI",
@@ -208,27 +208,6 @@ window.GTA6_DATA = {
     {
       "type": "hot_subdomain",
       "severity": "CRITICAL",
-      "target": "checkout-config.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: checkout-config.t2gp.take2games.com",
-      "at": "2026-09-27T01:04:25Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "checkout-develop.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: checkout-develop.t2gp.take2games.com",
-      "at": "2026-09-27T01:04:25Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "checkout-integration.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: checkout-integration.t2gp.take2games.com",
-      "at": "2026-09-27T01:04:25Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
       "target": "checkout-preview.t2gp.take2games.com",
       "detail": "NEW GTA6-relevant subdomain: checkout-preview.t2gp.take2games.com",
       "at": "2026-09-27T01:04:25Z"
@@ -1604,11 +1583,32 @@ window.GTA6_DATA = {
       "target": "vault.service.consul.take2games.com",
       "detail": "NEW GTA6-relevant subdomain: vault.service.consul.take2games.com",
       "at": "2026-09-30T19:18:45Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "home",
+      "detail": "new media: /VI/_next/static/media/esrb-mature.0k-tky9~eo.-3.svg",
+      "at": "2026-10-01T15:52:27Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "only-in-leonida",
+      "detail": "new media: /VI/_next/static/media/esrb-mature.0k-tky9~eo.-3.svg",
+      "at": "2026-10-01T15:52:27Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "media",
+      "detail": "new media: /VI/_next/static/media/esrb-mature.0k-tky9~eo.-3.svg",
+      "at": "2026-10-01T15:52:27Z"
     }
   ],
   "status": {
-    "last_run": "2026-10-01T08:54:24Z",
-    "changes_this_run": 0,
+    "last_run": "2026-10-01T15:52:27Z",
+    "changes_this_run": 3,
     "errors": [],
     "probes": {
       "/VI/pc": 404,
@@ -1631,7 +1631,7 @@ window.GTA6_DATA = {
       "/VI/characters": 404,
       "/VI/vice-city": 200
     },
-    "total_changes_logged": 3494
+    "total_changes_logged": 3497
   },
   "watched": {
     "pages": [
@@ -1719,24 +1719,24 @@ window.GTA6_DATA = {
     },
     "deploy": {
       "home": {
-        "etag": "\"ke1ygt2k51napa\"",
+        "etag": "\"sw4taso1elncf7\"",
         "last_modified": null,
-        "html_hash": "a21fc0556e0030a4"
+        "html_hash": "30a5ecf939e169a8"
       },
       "only-in-leonida": {
-        "etag": "\"fjkjajbo41i71f\"",
+        "etag": "\"6fcdfngdc1i8p1\"",
         "last_modified": null,
-        "html_hash": "51306ed77c922312"
+        "html_hash": "9dd29a175bf44799"
       },
       "media": {
-        "etag": "\"xqxzhcxm1pfwat\"",
+        "etag": "\"7jovea1omefxyg\"",
         "last_modified": null,
-        "html_hash": "0787812e2f7cb725"
+        "html_hash": "2f8148e0bc84b80c"
       },
       "editions": {
-        "etag": "\"vomib7g61cctv\"",
+        "etag": "\"1766prinyh9cctv\"",
         "last_modified": null,
-        "html_hash": "7789bd9359dfdf97"
+        "html_hash": "47373c746b460f54"
       }
     }
   }
