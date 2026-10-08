@@ -1,5 +1,5 @@
 window.GTA6_DATA = {
-  "generated": "2026-10-08T09:46:15Z",
+  "generated": "2026-10-08T17:00:45Z",
   "knowledge": {
     "meta": {
       "game": "Grand Theft Auto VI",
@@ -208,272 +208,6 @@ window.GTA6_DATA = {
     {
       "type": "hot_subdomain",
       "severity": "CRITICAL",
-      "target": "checkout-staging.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: checkout-staging.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "checkout.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: checkout.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "launcher-content-develop.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: launcher-content-develop.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "launcher-content-pd-develop.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: launcher-content-pd-develop.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "launcher-content-pd-preview.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: launcher-content-pd-preview.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "launcher-content-pd.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: launcher-content-pd.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "launcher-content-preview.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: launcher-content-preview.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "launcher-content.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: launcher-content.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "launcher-telemetry-service-develop.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: launcher-telemetry-service-develop.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "launcher-telemetry-service.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: launcher-telemetry-service.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "mergedragons-store-develop.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: mergedragons-store-develop.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "search-service-develop.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: search-service-develop.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "search-service-production.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: search-service-production.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "search-service-staging.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: search-service-staging.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "service-proxy.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: service-proxy.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-api-staging-artemis.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-api-staging-artemis.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-api.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-api.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-dev.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-dev.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-portal-dev.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-portal-dev.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-portal-stg.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-portal-stg.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-portal.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-portal.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-pr.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-pr.t2gp.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "vault.service.consul.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: vault.service.consul.take2games.com",
-      "at": "2026-10-03T14:52:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "beta.scadmin.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: beta.scadmin.rockstargames.com",
-      "at": "2026-10-03T21:38:11Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "cert.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: cert.store.rockstargames.com",
-      "at": "2026-10-03T21:38:11Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "checkout.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: checkout.rockstargames.com",
-      "at": "2026-10-03T21:38:11Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "dev.employee.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: dev.employee.store.rockstargames.com",
-      "at": "2026-10-03T21:38:11Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "dev.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: dev.store.rockstargames.com",
-      "at": "2026-10-03T21:38:11Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "employee.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: employee.store.rockstargames.com",
-      "at": "2026-10-03T21:38:11Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "int.employee.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: int.employee.store.rockstargames.com",
-      "at": "2026-10-03T21:38:11Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "overlaystore.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: overlaystore.rockstargames.com",
-      "at": "2026-10-03T21:38:11Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "prodbeta.scadmin.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: prodbeta.scadmin.rockstargames.com",
-      "at": "2026-10-03T21:38:11Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "services.bugstar.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: services.bugstar.rockstargames.com",
-      "at": "2026-10-03T21:38:11Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "stage-cert.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: stage-cert.store.rockstargames.com",
-      "at": "2026-10-03T21:38:11Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "stage-dev.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: stage-dev.store.rockstargames.com",
-      "at": "2026-10-03T21:38:11Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "stage-prod.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: stage-prod.store.rockstargames.com",
-      "at": "2026-10-03T21:38:11Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "staging.employee.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: staging.employee.store.rockstargames.com",
-      "at": "2026-10-03T21:38:11Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "store-develop.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: store-develop.rockstargames.com",
-      "at": "2026-10-03T21:38:11Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
       "target": "store-integration.rockstargames.com",
       "detail": "NEW GTA6-relevant subdomain: store-integration.rockstargames.com",
       "at": "2026-10-03T21:38:11Z"
@@ -1604,11 +1338,277 @@ window.GTA6_DATA = {
       "target": "vault.service.consul.take2games.com",
       "detail": "NEW GTA6-relevant subdomain: vault.service.consul.take2games.com",
       "at": "2026-10-07T00:10:48Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "home",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "home",
+      "detail": "new media: /VI/_next/static/media/GTAVI_Merch_PromoCard.0_k5n2lk~h9h~.jpg",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "home",
+      "detail": "new media: /VI/_next/static/media/o3982oa93a23k4.05jwq4z-sjai_.jpg",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "home",
+      "detail": "new media: /VI/_next/static/media/759875393o5253.0h0t06-9rye35.jpg",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "home",
+      "detail": "new media: /VI/_next/static/media/collectorsMobile.09~60xnm5q~pr.png",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "only-in-leonida",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "media",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "editions",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "editions",
+      "detail": "new media: /VI/_next/static/media/PBOPS5_badge_h_en_GB.0mdk5n0snqy6v.svg",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/game/buy-gta-vi",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/game/buy-gta-vi",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/grand-theft-auto-vi-collection",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/grand-theft-auto-vi-collection",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-black-grand-theft-auto-vi-goodtime-state-tee",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-black-grand-theft-auto-vi-goodtime-state-tee",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-black-grand-theft-auto-vi-logo-tee",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-black-grand-theft-auto-vi-logo-tee",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-black-grand-theft-auto-vi-womens-cropped-baby-logo-tee",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-black-grand-theft-auto-vi-womens-cropped-baby-logo-tee",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-blue-and-pink-grand-theft-auto-vi-canvas-tote",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-blue-and-pink-grand-theft-auto-vi-canvas-tote",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-blue-grand-theft-auto-vi-goodtime-state-tee",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-blue-grand-theft-auto-vi-goodtime-state-tee",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-blue-grand-theft-auto-vi-logo-tee",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-blue-grand-theft-auto-vi-logo-tee",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-blue-grand-theft-auto-vi-womens-cropped-baby-logo-tee",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-blue-grand-theft-auto-vi-womens-cropped-baby-logo-tee",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-and-rockstar-games-holographic-sticker-collection",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-and-rockstar-games-holographic-sticker-collection",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-and-rockstar-games-sticker-collection",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-and-rockstar-games-sticker-collection",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-baseball-cap-black-and-pink",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-baseball-cap-black-and-pink",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-baseball-cap-blue-and-pink",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-baseball-cap-blue-and-pink",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-baseball-cap-pink-and-blue",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-baseball-cap-pink-and-blue",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-keychain",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-keychain",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-vice-city-money-clip",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-vice-city-money-clip",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-vice-city-zippo-lighter",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-vice-city-zippo-lighter",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vice-city-screenshot-tee",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vice-city-screenshot-tee",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-gta-vi-album-cd",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-gta-vi-album-cd",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-gta-vi-album-standard-cd",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-gta-vi-album-standard-cd",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-gta-vi-album-standard-vinyl",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-gta-vi-album-standard-vinyl",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-gta-vi-album-vinyl",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-gta-vi-album-vinyl",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-pink-and-blue-grand-theft-auto-vi-canvas-tote",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-pink-and-blue-grand-theft-auto-vi-canvas-tote",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-pink-grand-theft-auto-vi-goodtime-state-tee",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-pink-grand-theft-auto-vi-goodtime-state-tee",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-pink-grand-theft-auto-vi-logo-tee",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-pink-grand-theft-auto-vi-logo-tee",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-pink-grand-theft-auto-vi-womens-cropped-baby-logo-tee",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-pink-grand-theft-auto-vi-womens-cropped-baby-logo-tee",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/buy-white-grand-theft-auto-vi-macca-the-gator-tee",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-white-grand-theft-auto-vi-macca-the-gator-tee",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/merchandise/gtavi-goodtime-state-vice-city-collection",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/gtavi-goodtime-state-vice-city-collection",
+      "at": "2026-10-08T17:00:44Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://store.rockstargames.com/view-all-games",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/view-all-games",
+      "at": "2026-10-08T17:00:44Z"
     }
   ],
   "status": {
-    "last_run": "2026-10-08T09:46:15Z",
-    "changes_this_run": 0,
+    "last_run": "2026-10-08T17:00:45Z",
+    "changes_this_run": 38,
     "errors": [],
     "probes": {
       "/VI/pc": 404,
@@ -1631,7 +1631,7 @@ window.GTA6_DATA = {
       "/VI/characters": 404,
       "/VI/vice-city": 200
     },
-    "total_changes_logged": 3724
+    "total_changes_logged": 3762
   },
   "watched": {
     "pages": [
@@ -1719,24 +1719,24 @@ window.GTA6_DATA = {
     },
     "deploy": {
       "home": {
-        "etag": "\"sw4taso1elncf7\"",
+        "etag": "\"1g6989u1eapavb\"",
         "last_modified": null,
-        "html_hash": "30a5ecf939e169a8"
+        "html_hash": "c6aa8f93edb87fb0"
       },
       "only-in-leonida": {
-        "etag": "\"6fcdfngdc1i8p1\"",
+        "etag": "\"74cheq5v5hjc93\"",
         "last_modified": null,
-        "html_hash": "9dd29a175bf44799"
+        "html_hash": "d9f3d0e40413f7d2"
       },
       "media": {
-        "etag": "\"7jovea1omefxyg\"",
+        "etag": "\"pj26n9t1isgytu\"",
         "last_modified": null,
-        "html_hash": "2f8148e0bc84b80c"
+        "html_hash": "202667a56d6457a5"
       },
       "editions": {
-        "etag": "\"1766prinyh9cctv\"",
+        "etag": "\"pr0mxp5syad2fg\"",
         "last_modified": null,
-        "html_hash": "47373c746b460f54"
+        "html_hash": "50a3ae7fc5f102df"
       }
     }
   }

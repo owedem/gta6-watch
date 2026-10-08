@@ -26066,5 +26066,271 @@
     "target": "vault.service.consul.take2games.com",
     "detail": "NEW GTA6-relevant subdomain: vault.service.consul.take2games.com",
     "at": "2026-10-07T00:10:48Z"
+  },
+  {
+    "type": "og_image_changed",
+    "severity": "HIGH",
+    "target": "home",
+    "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_media_asset",
+    "severity": "MEDIUM",
+    "target": "home",
+    "detail": "new media: /VI/_next/static/media/GTAVI_Merch_PromoCard.0_k5n2lk~h9h~.jpg",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_media_asset",
+    "severity": "MEDIUM",
+    "target": "home",
+    "detail": "new media: /VI/_next/static/media/o3982oa93a23k4.05jwq4z-sjai_.jpg",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_media_asset",
+    "severity": "MEDIUM",
+    "target": "home",
+    "detail": "new media: /VI/_next/static/media/759875393o5253.0h0t06-9rye35.jpg",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_media_asset",
+    "severity": "MEDIUM",
+    "target": "home",
+    "detail": "new media: /VI/_next/static/media/collectorsMobile.09~60xnm5q~pr.png",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "og_image_changed",
+    "severity": "HIGH",
+    "target": "only-in-leonida",
+    "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "og_image_changed",
+    "severity": "HIGH",
+    "target": "media",
+    "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "og_image_changed",
+    "severity": "HIGH",
+    "target": "editions",
+    "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_media_asset",
+    "severity": "MEDIUM",
+    "target": "editions",
+    "detail": "new media: /VI/_next/static/media/PBOPS5_badge_h_en_GB.0mdk5n0snqy6v.svg",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/game/buy-gta-vi",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/game/buy-gta-vi",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/grand-theft-auto-vi-collection",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/grand-theft-auto-vi-collection",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-black-grand-theft-auto-vi-goodtime-state-tee",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-black-grand-theft-auto-vi-goodtime-state-tee",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-black-grand-theft-auto-vi-logo-tee",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-black-grand-theft-auto-vi-logo-tee",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-black-grand-theft-auto-vi-womens-cropped-baby-logo-tee",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-black-grand-theft-auto-vi-womens-cropped-baby-logo-tee",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-blue-and-pink-grand-theft-auto-vi-canvas-tote",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-blue-and-pink-grand-theft-auto-vi-canvas-tote",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-blue-grand-theft-auto-vi-goodtime-state-tee",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-blue-grand-theft-auto-vi-goodtime-state-tee",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-blue-grand-theft-auto-vi-logo-tee",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-blue-grand-theft-auto-vi-logo-tee",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-blue-grand-theft-auto-vi-womens-cropped-baby-logo-tee",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-blue-grand-theft-auto-vi-womens-cropped-baby-logo-tee",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-and-rockstar-games-holographic-sticker-collection",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-and-rockstar-games-holographic-sticker-collection",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-and-rockstar-games-sticker-collection",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-and-rockstar-games-sticker-collection",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-baseball-cap-black-and-pink",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-baseball-cap-black-and-pink",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-baseball-cap-blue-and-pink",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-baseball-cap-blue-and-pink",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-baseball-cap-pink-and-blue",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-baseball-cap-pink-and-blue",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-keychain",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-keychain",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-vice-city-money-clip",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-vice-city-money-clip",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-vice-city-zippo-lighter",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vi-vice-city-zippo-lighter",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vice-city-screenshot-tee",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-grand-theft-auto-vice-city-screenshot-tee",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-gta-vi-album-cd",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-gta-vi-album-cd",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-gta-vi-album-standard-cd",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-gta-vi-album-standard-cd",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-gta-vi-album-standard-vinyl",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-gta-vi-album-standard-vinyl",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-gta-vi-album-vinyl",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-gta-vi-album-vinyl",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-pink-and-blue-grand-theft-auto-vi-canvas-tote",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-pink-and-blue-grand-theft-auto-vi-canvas-tote",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-pink-grand-theft-auto-vi-goodtime-state-tee",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-pink-grand-theft-auto-vi-goodtime-state-tee",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-pink-grand-theft-auto-vi-logo-tee",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-pink-grand-theft-auto-vi-logo-tee",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-pink-grand-theft-auto-vi-womens-cropped-baby-logo-tee",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-pink-grand-theft-auto-vi-womens-cropped-baby-logo-tee",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/buy-white-grand-theft-auto-vi-macca-the-gator-tee",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/buy-white-grand-theft-auto-vi-macca-the-gator-tee",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/merchandise/gtavi-goodtime-state-vice-city-collection",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/merchandise/gtavi-goodtime-state-vice-city-collection",
+    "at": "2026-10-08T17:00:44Z"
+  },
+  {
+    "type": "new_official_url",
+    "severity": "HIGH",
+    "target": "https://store.rockstargames.com/view-all-games",
+    "detail": "NEW official URL discovered (GTA6-relevant): https://store.rockstargames.com/view-all-games",
+    "at": "2026-10-08T17:00:44Z"
   }
 ]
