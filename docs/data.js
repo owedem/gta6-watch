@@ -1,5 +1,5 @@
 window.GTA6_DATA = {
-  "generated": "2026-10-15T09:27:52Z",
+  "generated": "2026-10-15T14:18:54Z",
   "knowledge": {
     "meta": {
       "game": "Grand Theft Auto VI",
@@ -208,90 +208,6 @@ window.GTA6_DATA = {
     {
       "type": "hot_subdomain",
       "severity": "CRITICAL",
-      "target": "service-proxy.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: service-proxy.take2games.com",
-      "at": "2026-10-11T23:12:28Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "services.bugstar.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: services.bugstar.rockstargames.com",
-      "at": "2026-10-11T23:12:28Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-api-staging-artemis.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-api-staging-artemis.t2gp.take2games.com",
-      "at": "2026-10-11T23:12:28Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-api.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-api.t2gp.take2games.com",
-      "at": "2026-10-11T23:12:28Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-dev.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-dev.t2gp.take2games.com",
-      "at": "2026-10-11T23:12:28Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-portal-dev.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-portal-dev.t2gp.take2games.com",
-      "at": "2026-10-11T23:12:28Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-portal-stg.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-portal-stg.t2gp.take2games.com",
-      "at": "2026-10-11T23:12:28Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-portal.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-portal.t2gp.take2games.com",
-      "at": "2026-10-11T23:12:28Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-pr.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-pr.t2gp.take2games.com",
-      "at": "2026-10-11T23:12:28Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "stage-cert.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: stage-cert.store.rockstargames.com",
-      "at": "2026-10-11T23:12:28Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "stage-dev.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: stage-dev.store.rockstargames.com",
-      "at": "2026-10-11T23:12:28Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "stage-prod.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: stage-prod.store.rockstargames.com",
-      "at": "2026-10-11T23:12:28Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
       "target": "staging.employee.store.rockstargames.com",
       "detail": "NEW GTA6-relevant subdomain: staging.employee.store.rockstargames.com",
       "at": "2026-10-11T23:12:28Z"
@@ -1604,11 +1520,95 @@ window.GTA6_DATA = {
       "target": "www.checkout.rockstargames.com",
       "detail": "NEW GTA6-relevant subdomain: www.checkout.rockstargames.com",
       "at": "2026-10-15T09:27:51Z"
+    },
+    {
+      "type": "new_route",
+      "severity": "HIGH",
+      "target": "home",
+      "detail": "new route: /VI/launch-trailer",
+      "at": "2026-10-15T14:18:53Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "home",
+      "detail": "new media: /VI/_next/static/media/featured.0.fbrrtu5j-9_.jpg",
+      "at": "2026-10-15T14:18:53Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "home",
+      "detail": "new media: /VI/_next/static/media/517572321a549a.0y668_yrgy9s_.jpg",
+      "at": "2026-10-15T14:18:53Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "home",
+      "detail": "new media: /VI/_next/static/media/extended-look.0f0-3vo3w9u26.jpg",
+      "at": "2026-10-15T14:18:53Z"
+    },
+    {
+      "type": "new_route",
+      "severity": "HIGH",
+      "target": "only-in-leonida",
+      "detail": "new route: /VI/launch-trailer",
+      "at": "2026-10-15T14:18:53Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "media",
+      "detail": "new media: /VI/_next/static/media/GTAVI_Launch_Trailer_poster.0_q-sdrgufc.s.jpg",
+      "at": "2026-10-15T14:18:53Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "media",
+      "detail": "new media: /VI/_next/static/media/Jason_Lucia_Lock_And_Load_landscape.0l9s5w7ih9p~3.jpg",
+      "at": "2026-10-15T14:18:53Z"
+    },
+    {
+      "type": "download_changed",
+      "severity": "HIGH",
+      "target": "https://media.rockstargames.com/VI/downloads/artwork_wallpapers/GTAVI_Artwork_Wallpapers.zip",
+      "detail": "media bundle updated (size 225678428 -> 235479862)",
+      "at": "2026-10-15T14:18:53Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://www.rockstargames.com/VI/an-extended-look",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://www.rockstargames.com/VI/an-extended-look",
+      "at": "2026-10-15T14:18:53Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://www.rockstargames.com/VI/launch-trailer",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://www.rockstargames.com/VI/launch-trailer",
+      "at": "2026-10-15T14:18:53Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://www.rockstargames.com/VI/trailer-1",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://www.rockstargames.com/VI/trailer-1",
+      "at": "2026-10-15T14:18:53Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://www.rockstargames.com/VI/trailer-2",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://www.rockstargames.com/VI/trailer-2",
+      "at": "2026-10-15T14:18:53Z"
     }
   ],
   "status": {
-    "last_run": "2026-10-15T09:27:52Z",
-    "changes_this_run": 50,
+    "last_run": "2026-10-15T14:18:54Z",
+    "changes_this_run": 12,
     "errors": [],
     "probes": {
       "/VI/pc": 404,
@@ -1631,7 +1631,7 @@ window.GTA6_DATA = {
       "/VI/characters": 404,
       "/VI/vice-city": 200
     },
-    "total_changes_logged": 4139
+    "total_changes_logged": 4151
   },
   "watched": {
     "pages": [
@@ -1688,9 +1688,9 @@ window.GTA6_DATA = {
       },
       "https://media.rockstargames.com/VI/downloads/artwork_wallpapers/GTAVI_Artwork_Wallpapers.zip": {
         "status": 200,
-        "size": "225678428",
-        "last_modified": "Wed, 16 Sep 2026 14:35:03 GMT",
-        "etag": "\"b9964664b878c4da9780ba385b3b166d:1789646858.283777\""
+        "size": "235479862",
+        "last_modified": "Thu, 15 Oct 2026 00:01:14 GMT",
+        "etag": "\"572eec8c096b580184f02d8fd854bce1:1792069288.476521\""
       },
       "https://media.rockstargames.com/VI/downloads/videos/GTAVI_Trailer_3.zip": {
         "status": 404,
@@ -1719,24 +1719,24 @@ window.GTA6_DATA = {
     },
     "deploy": {
       "home": {
-        "etag": "\"vpzy18xmkzpavb\"",
+        "etag": "\"mpmiv5jtxjpu7k\"",
         "last_modified": null,
-        "html_hash": "e6539e232b94ab78"
+        "html_hash": "0115b7ddee65d696"
       },
       "only-in-leonida": {
-        "etag": "\"lo9v2r9b8hjc93\"",
+        "etag": "\"4dnkfaifi0jks1\"",
         "last_modified": null,
-        "html_hash": "2da5aff7a763b68c"
+        "html_hash": "680fd64986244a0b"
       },
       "media": {
-        "etag": "\"ke8q4wv4k3gytu\"",
+        "etag": "\"2faldo91b8h4ai\"",
         "last_modified": null,
-        "html_hash": "83ce2568bd7472cb"
+        "html_hash": "d1265dabfd38ba60"
       },
       "editions": {
-        "etag": "\"e3i47ddw64d2fg\"",
+        "etag": "\"10ffc1gh7odd595\"",
         "last_modified": null,
-        "html_hash": "84f9d2a586753a5a"
+        "html_hash": "38358e9971011a60"
       }
     }
   }
