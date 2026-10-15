@@ -1,5 +1,5 @@
 window.GTA6_DATA = {
-  "generated": "2026-10-15T14:18:54Z",
+  "generated": "2026-10-15T18:23:22Z",
   "knowledge": {
     "meta": {
       "game": "Grand Theft Auto VI",
@@ -205,34 +205,6 @@ window.GTA6_DATA = {
     ]
   },
   "changelog": [
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "staging.employee.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: staging.employee.store.rockstargames.com",
-      "at": "2026-10-11T23:12:28Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "store-develop.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: store-develop.rockstargames.com",
-      "at": "2026-10-11T23:12:28Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "store-integration.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: store-integration.rockstargames.com",
-      "at": "2026-10-11T23:12:28Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "store-preview.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: store-preview.rockstargames.com",
-      "at": "2026-10-11T23:12:28Z"
-    },
     {
       "type": "hot_subdomain",
       "severity": "CRITICAL",
@@ -1604,11 +1576,39 @@ window.GTA6_DATA = {
       "target": "https://www.rockstargames.com/VI/trailer-2",
       "detail": "NEW official URL discovered (GTA6-relevant): https://www.rockstargames.com/VI/trailer-2",
       "at": "2026-10-15T14:18:53Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "home",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?qXOoWo7_YJjVLK9jY_b4F",
+      "at": "2026-10-15T18:23:21Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "only-in-leonida",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?qXOoWo7_YJjVLK9jY_b4F",
+      "at": "2026-10-15T18:23:21Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "media",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?qXOoWo7_YJjVLK9jY_b4F",
+      "at": "2026-10-15T18:23:21Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "editions",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?qXOoWo7_YJjVLK9jY_b4F",
+      "at": "2026-10-15T18:23:21Z"
     }
   ],
   "status": {
-    "last_run": "2026-10-15T14:18:54Z",
-    "changes_this_run": 12,
+    "last_run": "2026-10-15T18:23:22Z",
+    "changes_this_run": 4,
     "errors": [],
     "probes": {
       "/VI/pc": 404,
@@ -1631,7 +1631,7 @@ window.GTA6_DATA = {
       "/VI/characters": 404,
       "/VI/vice-city": 200
     },
-    "total_changes_logged": 4151
+    "total_changes_logged": 4155
   },
   "watched": {
     "pages": [
@@ -1719,24 +1719,24 @@ window.GTA6_DATA = {
     },
     "deploy": {
       "home": {
-        "etag": "\"mpmiv5jtxjpu7k\"",
+        "etag": "\"vfuh9jkz3epua0\"",
         "last_modified": null,
-        "html_hash": "0115b7ddee65d696"
+        "html_hash": "61a095480d99b98d"
       },
       "only-in-leonida": {
-        "etag": "\"4dnkfaifi0jks1\"",
+        "etag": "\"110v7rjfxqujkuh\"",
         "last_modified": null,
-        "html_hash": "680fd64986244a0b"
+        "html_hash": "3ffe9ba44897a644"
       },
       "media": {
-        "etag": "\"2faldo91b8h4ai\"",
+        "etag": "\"4fem66b4fhh4cy\"",
         "last_modified": null,
-        "html_hash": "d1265dabfd38ba60"
+        "html_hash": "370ac5bfa55cfcc7"
       },
       "editions": {
-        "etag": "\"10ffc1gh7odd595\"",
+        "etag": "\"10vvtro3nh6d5bl\"",
         "last_modified": null,
-        "html_hash": "38358e9971011a60"
+        "html_hash": "b219af61baeee53e"
       }
     }
   }

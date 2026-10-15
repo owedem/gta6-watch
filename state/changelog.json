@@ -29055,5 +29055,33 @@
     "target": "https://www.rockstargames.com/VI/trailer-2",
     "detail": "NEW official URL discovered (GTA6-relevant): https://www.rockstargames.com/VI/trailer-2",
     "at": "2026-10-15T14:18:53Z"
+  },
+  {
+    "type": "og_image_changed",
+    "severity": "HIGH",
+    "target": "home",
+    "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?qXOoWo7_YJjVLK9jY_b4F",
+    "at": "2026-10-15T18:23:21Z"
+  },
+  {
+    "type": "og_image_changed",
+    "severity": "HIGH",
+    "target": "only-in-leonida",
+    "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?qXOoWo7_YJjVLK9jY_b4F",
+    "at": "2026-10-15T18:23:21Z"
+  },
+  {
+    "type": "og_image_changed",
+    "severity": "HIGH",
+    "target": "media",
+    "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?qXOoWo7_YJjVLK9jY_b4F",
+    "at": "2026-10-15T18:23:21Z"
+  },
+  {
+    "type": "og_image_changed",
+    "severity": "HIGH",
+    "target": "editions",
+    "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?qXOoWo7_YJjVLK9jY_b4F",
+    "at": "2026-10-15T18:23:21Z"
   }
 ]
