@@ -1,5 +1,5 @@
 window.GTA6_DATA = {
-  "generated": "2026-10-19T13:07:31Z",
+  "generated": "2026-10-19T19:21:19Z",
   "knowledge": {
     "meta": {
       "game": "Grand Theft Auto VI",
@@ -1607,8 +1607,8 @@ window.GTA6_DATA = {
     }
   ],
   "status": {
-    "last_run": "2026-10-19T13:07:31Z",
-    "changes_this_run": 23,
+    "last_run": "2026-10-19T19:21:19Z",
+    "changes_this_run": 0,
     "errors": [],
     "probes": {
       "/VI/pc": 404,
