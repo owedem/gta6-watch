@@ -36433,5 +36433,40 @@
     "target": "www.checkout.rockstargames.com",
     "detail": "NEW GTA6-relevant subdomain: www.checkout.rockstargames.com",
     "at": "2026-11-03T07:59:33Z"
+  },
+  {
+    "type": "og_image_changed",
+    "severity": "HIGH",
+    "target": "home",
+    "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?bqVdDUNTL2GwsM_MMMW0M",
+    "at": "2026-11-03T15:41:54Z"
+  },
+  {
+    "type": "new_media_asset",
+    "severity": "MEDIUM",
+    "target": "home",
+    "detail": "new media: /VI/_next/static/media/k4ak9okk485712.0cj_8hoskvfgy.jpg",
+    "at": "2026-11-03T15:41:54Z"
+  },
+  {
+    "type": "og_image_changed",
+    "severity": "HIGH",
+    "target": "only-in-leonida",
+    "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?bqVdDUNTL2GwsM_MMMW0M",
+    "at": "2026-11-03T15:41:54Z"
+  },
+  {
+    "type": "og_image_changed",
+    "severity": "HIGH",
+    "target": "media",
+    "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?bqVdDUNTL2GwsM_MMMW0M",
+    "at": "2026-11-03T15:41:54Z"
+  },
+  {
+    "type": "og_image_changed",
+    "severity": "HIGH",
+    "target": "editions",
+    "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?bqVdDUNTL2GwsM_MMMW0M",
+    "at": "2026-11-03T15:41:54Z"
   }
 ]
