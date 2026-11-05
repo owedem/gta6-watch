@@ -1,5 +1,5 @@
 window.GTA6_DATA = {
-  "generated": "2026-11-05T08:47:09Z",
+  "generated": "2026-11-05T16:55:19Z",
   "knowledge": {
     "meta": {
       "game": "Grand Theft Auto VI",
@@ -205,90 +205,6 @@ window.GTA6_DATA = {
     ]
   },
   "changelog": [
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "search-service-production.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: search-service-production.t2gp.take2games.com",
-      "at": "2026-10-31T18:06:52Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "search-service-staging.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: search-service-staging.t2gp.take2games.com",
-      "at": "2026-10-31T18:06:52Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "service-proxy.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: service-proxy.take2games.com",
-      "at": "2026-10-31T18:06:52Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-api-staging-artemis.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-api-staging-artemis.t2gp.take2games.com",
-      "at": "2026-10-31T18:06:52Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-api.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-api.t2gp.take2games.com",
-      "at": "2026-10-31T18:06:52Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-dev.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-dev.t2gp.take2games.com",
-      "at": "2026-10-31T18:06:52Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-portal-dev.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-portal-dev.t2gp.take2games.com",
-      "at": "2026-10-31T18:06:52Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-portal-stg.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-portal-stg.t2gp.take2games.com",
-      "at": "2026-10-31T18:06:52Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-portal.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-portal.t2gp.take2games.com",
-      "at": "2026-10-31T18:06:52Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-pr.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-pr.t2gp.take2games.com",
-      "at": "2026-10-31T18:06:52Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "vault.service.consul.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: vault.service.consul.take2games.com",
-      "at": "2026-10-31T18:06:52Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "beta.scadmin.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: beta.scadmin.rockstargames.com",
-      "at": "2026-11-01T22:28:43Z"
-    },
     {
       "type": "hot_subdomain",
       "severity": "CRITICAL",
@@ -1604,11 +1520,95 @@ window.GTA6_DATA = {
       "target": "vault.service.consul.take2games.com",
       "detail": "NEW GTA6-relevant subdomain: vault.service.consul.take2games.com",
       "at": "2026-11-04T15:49:34Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "home",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?chy1UYn-EncQQwpG7SQkV",
+      "at": "2026-11-05T16:55:18Z"
+    },
+    {
+      "type": "new_route",
+      "severity": "HIGH",
+      "target": "home",
+      "detail": "new route: /VI/launch-gallery",
+      "at": "2026-11-05T16:55:18Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "home",
+      "detail": "new media: /VI/_next/static/media/screenshotsMobile.01nsldjqbta4u.jpg",
+      "at": "2026-11-05T16:55:18Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "home",
+      "detail": "new media: /VI/_next/static/media/39ak81277255o9.0lmk9f~r~10.x.jpg",
+      "at": "2026-11-05T16:55:18Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "only-in-leonida",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?chy1UYn-EncQQwpG7SQkV",
+      "at": "2026-11-05T16:55:18Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "media",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?chy1UYn-EncQQwpG7SQkV",
+      "at": "2026-11-05T16:55:18Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "media",
+      "detail": "new media: /VI/_next/static/media/Lucia_Caminos_12.0saq9ns-~xj03.jpg",
+      "at": "2026-11-05T16:55:18Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "media",
+      "detail": "new media: /VI/_next/static/media/Jason_and_Lucia_14.10e7v.06pcm_t.jpg",
+      "at": "2026-11-05T16:55:18Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "media",
+      "detail": "new media: /VI/_next/static/media/Vice_City_27.0d2e~w_r93hmh.jpg",
+      "at": "2026-11-05T16:55:18Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "editions",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?chy1UYn-EncQQwpG7SQkV",
+      "at": "2026-11-05T16:55:18Z"
+    },
+    {
+      "type": "download_changed",
+      "severity": "HIGH",
+      "target": "https://media.rockstargames.com/VI/downloads/screenshots/GTAVI_Screenshots.zip",
+      "detail": "media bundle updated (size 72255931 -> 116037951)",
+      "at": "2026-11-05T16:55:18Z"
+    },
+    {
+      "type": "new_official_url",
+      "severity": "HIGH",
+      "target": "https://www.rockstargames.com/VI/launch-gallery",
+      "detail": "NEW official URL discovered (GTA6-relevant): https://www.rockstargames.com/VI/launch-gallery",
+      "at": "2026-11-05T16:55:18Z"
     }
   ],
   "status": {
-    "last_run": "2026-11-05T08:47:09Z",
-    "changes_this_run": 0,
+    "last_run": "2026-11-05T16:55:19Z",
+    "changes_this_run": 12,
     "errors": [],
     "probes": {
       "/VI/pc": 404,
@@ -1631,7 +1631,7 @@ window.GTA6_DATA = {
       "/VI/characters": 404,
       "/VI/vice-city": 200
     },
-    "total_changes_logged": 5268
+    "total_changes_logged": 5280
   },
   "watched": {
     "pages": [
@@ -1670,9 +1670,9 @@ window.GTA6_DATA = {
       },
       "https://media.rockstargames.com/VI/downloads/screenshots/GTAVI_Screenshots.zip": {
         "status": 200,
-        "size": "72255931",
-        "last_modified": "Thu, 27 Aug 2026 17:08:54 GMT",
-        "etag": "\"8fb9175cc5a5fd839bbf04610228d913:1788180040.96769\""
+        "size": "116037951",
+        "last_modified": "Wed, 04 Nov 2026 23:50:21 GMT",
+        "etag": "\"e6542e650abf5d335178e8a41f61dcf1:1793890821.423191\""
       },
       "https://media.rockstargames.com/VI/downloads/screenshots/GTAVI_Ultimate_Edition_Benefits.zip": {
         "status": 200,
@@ -1719,24 +1719,24 @@ window.GTA6_DATA = {
     },
     "deploy": {
       "home": {
-        "etag": "\"sge40jb654q8lp\"",
+        "etag": "\"10p9gmz99ucqldx\"",
         "last_modified": null,
-        "html_hash": "4ea3ee6b7e67c85d"
+        "html_hash": "bb633bb7056442d9"
       },
       "only-in-leonida": {
-        "etag": "\"5beiohugy8jw3t\"",
+        "etag": "\"e36cm05llojx8d\"",
         "last_modified": null,
-        "html_hash": "11242e097a92e2c5"
+        "html_hash": "a825294d4b0646f8"
       },
       "media": {
-        "etag": "\"10cyhnpgxblhfd8\"",
+        "etag": "\"1269nhegfuchgc0\"",
         "last_modified": null,
-        "html_hash": "274be7e7d234d3c6"
+        "html_hash": "afbc7847909c2943"
       },
       "editions": {
-        "etag": "\"150cqlyavakdcft\"",
+        "etag": "\"iz5nn3j10addav\"",
         "last_modified": null,
-        "html_hash": "7bd19c26a66d7d2e"
+        "html_hash": "5f221355ccf799c5"
       }
     }
   }
