@@ -1,5 +1,5 @@
 window.GTA6_DATA = {
-  "generated": "2026-11-09T10:40:31Z",
+  "generated": "2026-11-09T21:07:11Z",
   "knowledge": {
     "meta": {
       "game": "Grand Theft Auto VI",
@@ -205,34 +205,6 @@ window.GTA6_DATA = {
     ]
   },
   "changelog": [
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "service-proxy.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: service-proxy.take2games.com",
-      "at": "2026-11-03T21:18:53Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-api-staging-artemis.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-api-staging-artemis.t2gp.take2games.com",
-      "at": "2026-11-03T21:18:53Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-api.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-api.t2gp.take2games.com",
-      "at": "2026-11-03T21:18:53Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "social-service-dev.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: social-service-dev.t2gp.take2games.com",
-      "at": "2026-11-03T21:18:53Z"
-    },
     {
       "type": "hot_subdomain",
       "severity": "CRITICAL",
@@ -1604,11 +1576,39 @@ window.GTA6_DATA = {
       "target": "vault.service.consul.take2games.com",
       "detail": "NEW GTA6-relevant subdomain: vault.service.consul.take2games.com",
       "at": "2026-11-09T02:52:39Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "home",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?BVmo0vcwM-1IY4ios_zoS",
+      "at": "2026-11-09T21:07:11Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "only-in-leonida",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?BVmo0vcwM-1IY4ios_zoS",
+      "at": "2026-11-09T21:07:11Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "media",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?BVmo0vcwM-1IY4ios_zoS",
+      "at": "2026-11-09T21:07:11Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "editions",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?BVmo0vcwM-1IY4ios_zoS",
+      "at": "2026-11-09T21:07:11Z"
     }
   ],
   "status": {
-    "last_run": "2026-11-09T10:40:31Z",
-    "changes_this_run": 0,
+    "last_run": "2026-11-09T21:07:11Z",
+    "changes_this_run": 4,
     "errors": [],
     "probes": {
       "/VI/pc": 404,
@@ -1631,7 +1631,7 @@ window.GTA6_DATA = {
       "/VI/characters": 404,
       "/VI/vice-city": 200
     },
-    "total_changes_logged": 5432
+    "total_changes_logged": 5436
   },
   "watched": {
     "pages": [
@@ -1719,24 +1719,24 @@ window.GTA6_DATA = {
     },
     "deploy": {
       "home": {
-        "etag": "\"10p9gmz99ucqldx\"",
+        "etag": "\"ekgegk3g5zq7es\"",
         "last_modified": null,
-        "html_hash": "bb633bb7056442d9"
+        "html_hash": "c5b7ba43d0107d38"
       },
       "only-in-leonida": {
-        "etag": "\"e36cm05llojx8d\"",
+        "etag": "\"slivmvpxqijmhd\"",
         "last_modified": null,
-        "html_hash": "a825294d4b0646f8"
+        "html_hash": "ec958d0152255c93"
       },
       "media": {
-        "etag": "\"1269nhegfuchgc0\"",
+        "etag": "\"lthmgck266h5rf\"",
         "last_modified": null,
-        "html_hash": "afbc7847909c2943"
+        "html_hash": "e40a9c1c2454d2e0"
       },
       "editions": {
-        "etag": "\"iz5nn3j10addav\"",
+        "etag": "\"uv36vv8ykqd6h7\"",
         "last_modified": null,
-        "html_hash": "5f221355ccf799c5"
+        "html_hash": "245afeb01dfebe31"
       }
     }
   }
