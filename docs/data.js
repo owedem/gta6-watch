@@ -1,5 +1,5 @@
 window.GTA6_DATA = {
-  "generated": "2026-11-10T18:54:37Z",
+  "generated": "2026-11-10T23:52:50Z",
   "knowledge": {
     "meta": {
       "game": "Grand Theft Auto VI",
@@ -205,34 +205,6 @@ window.GTA6_DATA = {
     ]
   },
   "changelog": [
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "launcher-content.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: launcher-content.t2gp.take2games.com",
-      "at": "2026-11-06T22:08:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "launcher-telemetry-service-develop.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: launcher-telemetry-service-develop.t2gp.take2games.com",
-      "at": "2026-11-06T22:08:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "launcher-telemetry-service.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: launcher-telemetry-service.t2gp.take2games.com",
-      "at": "2026-11-06T22:08:07Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "mergedragons-store-develop.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: mergedragons-store-develop.t2gp.take2games.com",
-      "at": "2026-11-06T22:08:07Z"
-    },
     {
       "type": "hot_subdomain",
       "severity": "CRITICAL",
@@ -1604,11 +1576,39 @@ window.GTA6_DATA = {
       "target": "vault.service.consul.take2games.com",
       "detail": "NEW GTA6-relevant subdomain: vault.service.consul.take2games.com",
       "at": "2026-11-10T18:54:36Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "home",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?yvw8ZozOI7a7Kz1war9qe",
+      "at": "2026-11-10T23:52:49Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "only-in-leonida",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?yvw8ZozOI7a7Kz1war9qe",
+      "at": "2026-11-10T23:52:49Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "media",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?yvw8ZozOI7a7Kz1war9qe",
+      "at": "2026-11-10T23:52:49Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "editions",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?yvw8ZozOI7a7Kz1war9qe",
+      "at": "2026-11-10T23:52:49Z"
     }
   ],
   "status": {
-    "last_run": "2026-11-10T18:54:37Z",
-    "changes_this_run": 38,
+    "last_run": "2026-11-10T23:52:50Z",
+    "changes_this_run": 4,
     "errors": [],
     "probes": {
       "/VI/pc": 404,
@@ -1631,7 +1631,7 @@ window.GTA6_DATA = {
       "/VI/characters": 404,
       "/VI/vice-city": 200
     },
-    "total_changes_logged": 5498
+    "total_changes_logged": 5502
   },
   "watched": {
     "pages": [
@@ -1719,24 +1719,24 @@ window.GTA6_DATA = {
     },
     "deploy": {
       "home": {
-        "etag": "\"96cl7unuldqfw6\"",
+        "etag": "\"17gbd5ccjg4qfw6\"",
         "last_modified": null,
-        "html_hash": "ce88729ce17fac26"
+        "html_hash": "5f8117f24654f371"
       },
       "only-in-leonida": {
-        "etag": "\"5mvnp90dkwjdny\"",
+        "etag": "\"13zszlajx8ejdny\"",
         "last_modified": null,
-        "html_hash": "d134dc330b19d72e"
+        "html_hash": "bb9c8e04a6ec8cda"
       },
       "media": {
-        "etag": "\"14fk6v4aayggxz6\"",
+        "etag": "\"7ta80bvz5wgxz6\"",
         "last_modified": null,
-        "html_hash": "9edee1b3247e9d71"
+        "html_hash": "a74823c03771bd9b"
       },
       "editions": {
-        "etag": "\"13eb618gqsqd2ec\"",
+        "etag": "\"j46zy35i1zd2ec\"",
         "last_modified": null,
-        "html_hash": "c2ced6016525a66b"
+        "html_hash": "53358fa05520af3e"
       }
     }
   }
