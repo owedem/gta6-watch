@@ -1,5 +1,5 @@
 window.GTA6_DATA = {
-  "generated": "2026-11-13T10:23:23Z",
+  "generated": "2026-11-13T17:59:33Z",
   "knowledge": {
     "meta": {
       "game": "Grand Theft Auto VI",
@@ -208,167 +208,6 @@ window.GTA6_DATA = {
     {
       "type": "hot_subdomain",
       "severity": "CRITICAL",
-      "target": "store-integration.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: store-integration.rockstargames.com",
-      "at": "2026-11-10T11:48:56Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "store-preview.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: store-preview.rockstargames.com",
-      "at": "2026-11-10T11:48:56Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "store-staging.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: store-staging.rockstargames.com",
-      "at": "2026-11-10T11:48:56Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: store.rockstargames.com",
-      "at": "2026-11-10T11:48:56Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "vanity-develop.employee.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: vanity-develop.employee.store.rockstargames.com",
-      "at": "2026-11-10T11:48:56Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "vanity-staging.employee.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: vanity-staging.employee.store.rockstargames.com",
-      "at": "2026-11-10T11:48:56Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "vanity.employee.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: vanity.employee.store.rockstargames.com",
-      "at": "2026-11-10T11:48:56Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "www.checkout.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: www.checkout.rockstargames.com",
-      "at": "2026-11-10T11:48:56Z"
-    },
-    {
-      "type": "og_image_changed",
-      "severity": "HIGH",
-      "target": "home",
-      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?0o4xM8kDYYM3NFKzWF5OT",
-      "at": "2026-11-10T18:54:36Z"
-    },
-    {
-      "type": "new_media_asset",
-      "severity": "MEDIUM",
-      "target": "home",
-      "detail": "new media: /VI/_next/static/media/an-extended-look-mobile.0f0-3vo3w9u26.jpg",
-      "at": "2026-11-10T18:54:36Z"
-    },
-    {
-      "type": "new_media_asset",
-      "severity": "MEDIUM",
-      "target": "home",
-      "detail": "new media: /VI/_next/static/media/launch-trailer.0cq1gbt4507ty.jpg",
-      "at": "2026-11-10T18:54:36Z"
-    },
-    {
-      "type": "new_media_asset",
-      "severity": "MEDIUM",
-      "target": "home",
-      "detail": "new media: /VI/_next/static/media/89834o94713o21.04n287k6o2lh9.jpg",
-      "at": "2026-11-10T18:54:36Z"
-    },
-    {
-      "type": "new_media_asset",
-      "severity": "MEDIUM",
-      "target": "home",
-      "detail": "new media: /VI/_next/static/media/pre-load-mobile.0w0e-.3-xgjgh.jpg",
-      "at": "2026-11-10T18:54:36Z"
-    },
-    {
-      "type": "og_image_changed",
-      "severity": "HIGH",
-      "target": "only-in-leonida",
-      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?0o4xM8kDYYM3NFKzWF5OT",
-      "at": "2026-11-10T18:54:36Z"
-    },
-    {
-      "type": "og_image_changed",
-      "severity": "HIGH",
-      "target": "media",
-      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?0o4xM8kDYYM3NFKzWF5OT",
-      "at": "2026-11-10T18:54:36Z"
-    },
-    {
-      "type": "new_media_asset",
-      "severity": "MEDIUM",
-      "target": "media",
-      "detail": "new media: /VI/_next/static/media/GTAVI_Pre_Load.0h87nx-881hca.jpg",
-      "at": "2026-11-10T18:54:36Z"
-    },
-    {
-      "type": "new_media_asset",
-      "severity": "MEDIUM",
-      "target": "media",
-      "detail": "new media: /VI/_next/static/media/Jason_Lucia_Rooftop_landscape.0c6p5do~-8~7..jpg",
-      "at": "2026-11-10T18:54:36Z"
-    },
-    {
-      "type": "og_image_changed",
-      "severity": "HIGH",
-      "target": "editions",
-      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?0o4xM8kDYYM3NFKzWF5OT",
-      "at": "2026-11-10T18:54:36Z"
-    },
-    {
-      "type": "download_changed",
-      "severity": "HIGH",
-      "target": "https://media.rockstargames.com/VI/downloads/artwork_wallpapers/GTAVI_Artwork_Wallpapers.zip",
-      "detail": "media bundle updated (size 235479862 -> 246482272)",
-      "at": "2026-11-10T18:54:36Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "checkout-config.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: checkout-config.t2gp.take2games.com",
-      "at": "2026-11-10T18:54:36Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "checkout-develop.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: checkout-develop.t2gp.take2games.com",
-      "at": "2026-11-10T18:54:36Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "checkout-integration.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: checkout-integration.t2gp.take2games.com",
-      "at": "2026-11-10T18:54:36Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "checkout-preview.t2gp.take2games.com",
-      "detail": "NEW GTA6-relevant subdomain: checkout-preview.t2gp.take2games.com",
-      "at": "2026-11-10T18:54:36Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
       "target": "checkout-staging.t2gp.take2games.com",
       "detail": "NEW GTA6-relevant subdomain: checkout-staging.t2gp.take2games.com",
       "at": "2026-11-10T18:54:36Z"
@@ -1604,11 +1443,172 @@ window.GTA6_DATA = {
       "target": "www.checkout.rockstargames.com",
       "detail": "NEW GTA6-relevant subdomain: www.checkout.rockstargames.com",
       "at": "2026-11-13T02:53:47Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "beta.scadmin.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: beta.scadmin.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "cert.store.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: cert.store.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "checkout.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: checkout.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "dev.employee.store.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: dev.employee.store.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "dev.store.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: dev.store.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "employee.store.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: employee.store.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "int.employee.store.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: int.employee.store.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "overlaystore.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: overlaystore.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "prodbeta.scadmin.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: prodbeta.scadmin.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "services.bugstar.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: services.bugstar.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "stage-cert.store.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: stage-cert.store.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "stage-dev.store.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: stage-dev.store.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "stage-prod.store.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: stage-prod.store.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "staging.employee.store.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: staging.employee.store.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "store-develop.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: store-develop.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "store-integration.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: store-integration.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "store-preview.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: store-preview.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "store-staging.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: store-staging.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "store.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: store.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "vanity-develop.employee.store.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: vanity-develop.employee.store.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "vanity-staging.employee.store.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: vanity-staging.employee.store.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "vanity.employee.store.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: vanity.employee.store.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
+    },
+    {
+      "type": "hot_subdomain",
+      "severity": "CRITICAL",
+      "target": "www.checkout.rockstargames.com",
+      "detail": "NEW GTA6-relevant subdomain: www.checkout.rockstargames.com",
+      "at": "2026-11-13T17:59:32Z"
     }
   ],
   "status": {
-    "last_run": "2026-11-13T10:23:23Z",
-    "changes_this_run": 0,
+    "last_run": "2026-11-13T17:59:33Z",
+    "changes_this_run": 23,
     "errors": [],
     "probes": {
       "/VI/pc": 404,
@@ -1631,7 +1631,7 @@ window.GTA6_DATA = {
       "/VI/characters": 404,
       "/VI/vice-city": 200
     },
-    "total_changes_logged": 5652
+    "total_changes_logged": 5675
   },
   "watched": {
     "pages": [
