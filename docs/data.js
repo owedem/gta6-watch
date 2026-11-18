@@ -1,5 +1,5 @@
 window.GTA6_DATA = {
-  "generated": "2026-11-18T10:46:49Z",
+  "generated": "2026-11-18T19:07:23Z",
   "knowledge": {
     "meta": {
       "game": "Grand Theft Auto VI",
@@ -208,48 +208,6 @@ window.GTA6_DATA = {
     {
       "type": "hot_subdomain",
       "severity": "CRITICAL",
-      "target": "beta.scadmin.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: beta.scadmin.rockstargames.com",
-      "at": "2026-11-14T20:59:26Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "cert.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: cert.store.rockstargames.com",
-      "at": "2026-11-14T20:59:26Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "checkout.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: checkout.rockstargames.com",
-      "at": "2026-11-14T20:59:26Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "dev.employee.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: dev.employee.store.rockstargames.com",
-      "at": "2026-11-14T20:59:26Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "dev.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: dev.store.rockstargames.com",
-      "at": "2026-11-14T20:59:26Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
-      "target": "employee.store.rockstargames.com",
-      "detail": "NEW GTA6-relevant subdomain: employee.store.rockstargames.com",
-      "at": "2026-11-14T20:59:26Z"
-    },
-    {
-      "type": "hot_subdomain",
-      "severity": "CRITICAL",
       "target": "int.employee.store.rockstargames.com",
       "detail": "NEW GTA6-relevant subdomain: int.employee.store.rockstargames.com",
       "at": "2026-11-14T20:59:26Z"
@@ -1604,11 +1562,53 @@ window.GTA6_DATA = {
       "target": "www.checkout.rockstargames.com",
       "detail": "NEW GTA6-relevant subdomain: www.checkout.rockstargames.com",
       "at": "2026-11-18T10:46:49Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "home",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?K1OF2OByoQie0QQKb3wpE",
+      "at": "2026-11-18T19:07:23Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "home",
+      "detail": "new media: /VI/_next/static/media/launch-trailer-mobile.11.007xolt5y2.jpg",
+      "at": "2026-11-18T19:07:23Z"
+    },
+    {
+      "type": "new_media_asset",
+      "severity": "MEDIUM",
+      "target": "home",
+      "detail": "new media: /VI/_next/static/media/pre-load.0zuzm7cd1f3h1.jpg",
+      "at": "2026-11-18T19:07:23Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "only-in-leonida",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?K1OF2OByoQie0QQKb3wpE",
+      "at": "2026-11-18T19:07:23Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "media",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?K1OF2OByoQie0QQKb3wpE",
+      "at": "2026-11-18T19:07:23Z"
+    },
+    {
+      "type": "og_image_changed",
+      "severity": "HIGH",
+      "target": "editions",
+      "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?K1OF2OByoQie0QQKb3wpE",
+      "at": "2026-11-18T19:07:23Z"
     }
   ],
   "status": {
-    "last_run": "2026-11-18T10:46:49Z",
-    "changes_this_run": 23,
+    "last_run": "2026-11-18T19:07:23Z",
+    "changes_this_run": 6,
     "errors": [],
     "probes": {
       "/VI/pc": 404,
@@ -1631,7 +1631,7 @@ window.GTA6_DATA = {
       "/VI/characters": 404,
       "/VI/vice-city": 200
     },
-    "total_changes_logged": 5929
+    "total_changes_logged": 5935
   },
   "watched": {
     "pages": [
@@ -1719,24 +1719,24 @@ window.GTA6_DATA = {
     },
     "deploy": {
       "home": {
-        "etag": "\"17gbd5ccjg4qfw6\"",
+        "etag": "\"u9by76klwkqv0q\"",
         "last_modified": null,
-        "html_hash": "5f8117f24654f371"
+        "html_hash": "b8cff4e83c373635"
       },
       "only-in-leonida": {
-        "etag": "\"13zszlajx8ejdny\"",
+        "etag": "\"xaqfby5cl7jprz\"",
         "last_modified": null,
-        "html_hash": "bb9c8e04a6ec8cda"
+        "html_hash": "b7f6876ea2b2ff21"
       },
       "media": {
-        "etag": "\"7ta80bvz5wgxz6\"",
+        "etag": "\"t9jqzn54gkh8go\"",
         "last_modified": null,
-        "html_hash": "a74823c03771bd9b"
+        "html_hash": "086922af2926010e"
       },
       "editions": {
-        "etag": "\"j46zy35i1zd2ec\"",
+        "etag": "\"6naewpoa7ld95b\"",
         "last_modified": null,
-        "html_hash": "53358fa05520af3e"
+        "html_hash": "388290443f00a08e"
       }
     }
   }
