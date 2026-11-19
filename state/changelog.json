@@ -42166,5 +42166,33 @@
     "target": "https://www.rockstargames.com/VI/gta-plus",
     "detail": "NEW official URL discovered (GTA6-relevant): https://www.rockstargames.com/VI/gta-plus",
     "at": "2026-11-19T17:44:04Z"
+  },
+  {
+    "type": "og_image_changed",
+    "severity": "HIGH",
+    "target": "home",
+    "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?8DSFc26rmFX7srA3UiIEb",
+    "at": "2026-11-19T23:51:48Z"
+  },
+  {
+    "type": "og_image_changed",
+    "severity": "HIGH",
+    "target": "only-in-leonida",
+    "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?8DSFc26rmFX7srA3UiIEb",
+    "at": "2026-11-19T23:51:48Z"
+  },
+  {
+    "type": "og_image_changed",
+    "severity": "HIGH",
+    "target": "media",
+    "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?8DSFc26rmFX7srA3UiIEb",
+    "at": "2026-11-19T23:51:48Z"
+  },
+  {
+    "type": "og_image_changed",
+    "severity": "HIGH",
+    "target": "editions",
+    "detail": "share image -> https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?8DSFc26rmFX7srA3UiIEb",
+    "at": "2026-11-19T23:51:48Z"
   }
 ]
